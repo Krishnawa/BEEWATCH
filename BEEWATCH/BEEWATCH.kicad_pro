@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.5,
+          "width": 0.9
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -499,10 +499,6 @@
     [
       "15b9618d-10d4-4333-8312-f49228536273",
       "Display"
-    ],
-    [
-      "fd0932b0-75fe-492b-aa27-92ef2d32801a",
-      "Powersupply"
     ],
     [
       "d9595010-f994-473f-a0a5-39e7f06951fe",
