@@ -132,7 +132,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 5,
-          "td_on_pad_in_zone": false,
+          "td_on_pad_in_zone": true,
           "td_onpadsmd": true,
           "td_onroundshapesonly": false,
           "td_ontrackend": false,
@@ -494,7 +494,7 @@
     ],
     [
       "45e7f89e-d204-4195-8987-9a9b7a51f032",
-      "GPS"
+      "ACCELEROMETER"
     ],
     [
       "15b9618d-10d4-4333-8312-f49228536273",
