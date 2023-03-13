@@ -1095,7 +1095,7 @@
   (symbol (lib_id "power:+5V") (at 55.88 136.525 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 072d704b-dd2a-40c6-b374-cd0b73f9a6bb)
-    (property "Reference" "#PWR030" (at 55.88 140.335 0)
+    (property "Reference" "#PWR029" (at 55.88 140.335 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 55.88 132.715 0)
@@ -1111,7 +1111,7 @@
     (instances
       (project "BEEWATCH"
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -1146,7 +1146,7 @@
   (symbol (lib_id "power:+3.3V") (at 95.885 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 156de9f8-eb21-4d25-9944-aa74cab72ec4)
-    (property "Reference" "#PWR033" (at 95.885 139.7 0)
+    (property "Reference" "#PWR028" (at 95.885 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 95.885 132.08 0)
@@ -1162,7 +1162,7 @@
     (instances
       (project "BEEWATCH"
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -1197,7 +1197,7 @@
   (symbol (lib_id "power:GND") (at 76.2 151.765 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3dec2bd3-b7d1-4ae0-a7ba-8b0c6aa61aae)
-    (property "Reference" "#PWR031" (at 76.2 158.115 0)
+    (property "Reference" "#PWR030" (at 76.2 158.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.2 156.845 0)
@@ -1213,7 +1213,7 @@
     (instances
       (project "BEEWATCH"
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -1222,7 +1222,7 @@
   (symbol (lib_id "power:GND") (at 95.885 151.765 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4aecfe96-fe6e-4ef3-80d6-f05403a0a03f)
-    (property "Reference" "#PWR034" (at 95.885 158.115 0)
+    (property "Reference" "#PWR031" (at 95.885 158.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 95.885 156.845 0)
@@ -1238,7 +1238,7 @@
     (instances
       (project "BEEWATCH"
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -1247,7 +1247,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 130.81 45.085 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 504404b8-0ee5-43c6-b575-2bd1e0180987)
-    (property "Reference" "D2" (at 127.635 43.815 0)
+    (property "Reference" "D1" (at 127.635 43.815 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Schottky" (at 134.62 40.64 0)
@@ -1264,7 +1264,7 @@
     (instances
       (project "BEEWATCH"
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
-          (reference "D2") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -1273,7 +1273,7 @@
   (symbol (lib_id "Device:C_Small") (at 43.18 55.245 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5593d8a7-9b55-46b6-a630-82578aceb9c8)
-    (property "Reference" "C20" (at 45.72 54.6163 0)
+    (property "Reference" "C22" (at 45.72 54.6163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 45.72 57.1563 0)
@@ -1290,7 +1290,7 @@
     (instances
       (project "BEEWATCH"
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
-          (reference "C20") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -1299,7 +1299,7 @@
   (symbol (lib_id "Device:LED") (at 91.44 45.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ab8cab7-af36-4713-9f3c-5bfabc5eb16c)
-    (property "Reference" "D1" (at 94.615 46.6725 90)
+    (property "Reference" "D2" (at 94.615 46.6725 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 94.615 49.2125 90)
@@ -1316,7 +1316,7 @@
     (instances
       (project "BEEWATCH"
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
-          (reference "D1") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -1325,7 +1325,7 @@
   (symbol (lib_id "Device:C_Small") (at 95.885 172.085 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 603ffd2d-f3c2-4460-9ae3-500aff507373)
-    (property "Reference" "C23" (at 98.425 171.4563 0)
+    (property "Reference" "C26" (at 98.425 171.4563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 98.425 173.9963 0)
@@ -1342,7 +1342,7 @@
     (instances
       (project "BEEWATCH"
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
-          (reference "C23") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -1395,10 +1395,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -1407,7 +1407,7 @@
   (symbol (lib_id "power:+5V") (at 137.795 38.735 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 713259fb-e0a5-4c7a-9ab5-40de2345cf40)
-    (property "Reference" "#PWR029" (at 137.795 42.545 0)
+    (property "Reference" "#PWR022" (at 137.795 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 137.795 34.925 0)
@@ -1423,7 +1423,7 @@
     (instances
       (project "BEEWATCH"
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -1432,7 +1432,7 @@
   (symbol (lib_id "Device:C_Small") (at 97.79 56.515 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c522121-cb5a-42f1-9e94-d25dbb09dd5b)
-    (property "Reference" "C19" (at 100.965 55.8863 0)
+    (property "Reference" "C23" (at 100.965 55.8863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 100.965 58.4263 0)
@@ -1449,7 +1449,7 @@
     (instances
       (project "BEEWATCH"
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
-          (reference "C19") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -1458,7 +1458,7 @@
   (symbol (lib_id "Device:C_Small") (at 95.885 145.415 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7da95e38-ea0f-4aab-a677-4e1a3f4d437a)
-    (property "Reference" "C22" (at 98.425 144.7863 0)
+    (property "Reference" "C25" (at 98.425 144.7863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 98.425 147.3263 0)
@@ -1475,7 +1475,7 @@
     (instances
       (project "BEEWATCH"
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
-          (reference "C22") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -1484,7 +1484,7 @@
   (symbol (lib_id "Device:R_Small") (at 51.435 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98f9a0ba-4fb2-4e3d-b08b-9362d3003f9c)
-    (property "Reference" "R17" (at 53.34 62.865 0)
+    (property "Reference" "R21" (at 53.34 62.865 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22K" (at 53.34 65.405 0)
@@ -1501,7 +1501,7 @@
     (instances
       (project "BEEWATCH"
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
-          (reference "R17") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -1510,7 +1510,7 @@
   (symbol (lib_id "Device:R_Small") (at 83.185 56.515 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 997e8439-266b-4be8-8aef-3b31367c57bf)
-    (property "Reference" "R18" (at 83.185 59.055 90)
+    (property "Reference" "R19" (at 83.185 59.055 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 83.185 61.595 90)
@@ -1527,7 +1527,7 @@
     (instances
       (project "BEEWATCH"
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
-          (reference "R18") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -1536,7 +1536,7 @@
   (symbol (lib_id "Project_Library:DMP1045U-7") (at 120.015 47.625 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 998c9ba7-ccc9-4328-a8ca-b498b5fb1359)
-    (property "Reference" "Q3" (at 120.9675 56.515 90)
+    (property "Reference" "Q2" (at 120.9675 56.515 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 116.205 46.355 0)
@@ -1554,7 +1554,7 @@
     (instances
       (project "BEEWATCH"
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
-          (reference "Q3") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -1563,7 +1563,7 @@
   (symbol (lib_id "Device:R_Small") (at 148.59 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a5d356bb-81c5-4653-817a-9d2ece6f92b3)
-    (property "Reference" "R19" (at 150.495 48.895 0)
+    (property "Reference" "R18" (at 150.495 48.895 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22K" (at 150.495 51.435 0)
@@ -1580,7 +1580,7 @@
     (instances
       (project "BEEWATCH"
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
-          (reference "R19") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -1672,7 +1672,7 @@
   (symbol (lib_id "power:GND") (at 43.18 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5071b56-7bdc-4291-8195-107a8c95cf43)
-    (property "Reference" "#PWR026" (at 43.18 73.66 0)
+    (property "Reference" "#PWR024" (at 43.18 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 43.18 72.39 0)
@@ -1688,7 +1688,7 @@
     (instances
       (project "BEEWATCH"
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -1697,7 +1697,7 @@
   (symbol (lib_id "Device:C_Small") (at 130.81 56.515 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e599aa9b-324a-4337-aa1c-b526071939a4)
-    (property "Reference" "C21" (at 133.985 55.8863 0)
+    (property "Reference" "C24" (at 133.985 55.8863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 133.985 58.4263 0)
@@ -1714,7 +1714,7 @@
     (instances
       (project "BEEWATCH"
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
-          (reference "C21") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -1723,7 +1723,7 @@
   (symbol (lib_id "power:GND") (at 67.31 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e86ef9b4-1fda-4733-80c1-e729a9ecaf90)
-    (property "Reference" "#PWR023" (at 67.31 73.66 0)
+    (property "Reference" "#PWR026" (at 67.31 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.31 72.39 0)
@@ -1739,7 +1739,7 @@
     (instances
       (project "BEEWATCH"
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -1777,7 +1777,7 @@
   (symbol (lib_id "power:GND") (at 95.885 178.435 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ed1d62bf-5289-4324-9844-ee9ccddc9bcc)
-    (property "Reference" "#PWR035" (at 95.885 184.785 0)
+    (property "Reference" "#PWR033" (at 95.885 184.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 95.885 183.515 0)
@@ -1793,7 +1793,7 @@
     (instances
       (project "BEEWATCH"
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -1821,10 +1821,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )

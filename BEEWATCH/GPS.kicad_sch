@@ -473,7 +473,7 @@
   (symbol (lib_id "Device:C_Small") (at 112.395 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c79d3f4-ef42-4d9d-96a5-c63b9d99e5fa)
-    (property "Reference" "C24" (at 114.935 78.1113 0)
+    (property "Reference" "C17" (at 114.935 78.1113 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 114.935 80.6513 0)
@@ -490,7 +490,7 @@
     (instances
       (project "BEEWATCH"
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/45e7f89e-d204-4195-8987-9a9b7a51f032"
-          (reference "C24") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -499,7 +499,7 @@
   (symbol (lib_id "Device:C_Small") (at 178.435 113.665 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17fac265-4a5a-4a2d-90af-a131947d1bc8)
-    (property "Reference" "C17" (at 181.61 113.0363 0)
+    (property "Reference" "C19" (at 181.61 113.0363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2nF" (at 181.61 115.5763 0)
@@ -516,7 +516,7 @@
     (instances
       (project "BEEWATCH"
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/45e7f89e-d204-4195-8987-9a9b7a51f032"
-          (reference "C17") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -525,7 +525,7 @@
   (symbol (lib_id "Device:C_Small") (at 166.37 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 39e6fc29-3699-49b3-b8af-294c61d307bf)
-    (property "Reference" "C16" (at 168.91 113.6713 0)
+    (property "Reference" "C20" (at 168.91 113.6713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 168.91 116.2113 0)
@@ -542,7 +542,7 @@
     (instances
       (project "BEEWATCH"
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/45e7f89e-d204-4195-8987-9a9b7a51f032"
-          (reference "C16") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -576,7 +576,7 @@
   (symbol (lib_id "Device:R_Small") (at 120.65 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8f4c9a88-2574-4718-ba0f-fef2941a3e6e)
-    (property "Reference" "R22" (at 120.65 111.76 90)
+    (property "Reference" "R14" (at 120.65 111.76 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 120.5908 109.4172 90)
@@ -593,7 +593,7 @@
     (instances
       (project "BEEWATCH"
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/45e7f89e-d204-4195-8987-9a9b7a51f032"
-          (reference "R22") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -627,7 +627,7 @@
   (symbol (lib_id "Sensor_Motion:MPU-6050") (at 142.24 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b4f15f3a-940c-434e-92b4-972a6d222be2)
-    (property "Reference" "U8" (at 129.54 85.725 0)
+    (property "Reference" "U?" (at 129.54 85.725 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MPU-6050" (at 129.54 83.185 0)
@@ -666,10 +666,10 @@
     (instances
       (project "BEEWATCH"
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514"
-          (reference "U8") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/45e7f89e-d204-4195-8987-9a9b7a51f032"
-          (reference "U3") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -678,7 +678,7 @@
   (symbol (lib_id "Device:R_Small") (at 120.65 106.68 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid df53765a-4595-495c-9f42-1af8036fa3bc)
-    (property "Reference" "R21" (at 120.65 104.775 90)
+    (property "Reference" "R13" (at 120.65 104.775 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 120.724 106.7874 90)
@@ -695,7 +695,7 @@
     (instances
       (project "BEEWATCH"
         (path "/e9c5fb53-480b-4989-8495-a3341ee99514/45e7f89e-d204-4195-8987-9a9b7a51f032"
-          (reference "R21") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
