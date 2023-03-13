@@ -1,5 +1,4 @@
 (sym_lib_table
   (version 7)
   (lib (name "Project_Library")(type "KiCad")(uri "${KIPRJMOD}/LIB/Project_Library.kicad_sym")(options "")(descr ""))
-  (lib (name "open-Smartwatch")(type "Legacy")(uri "${KIPRJMOD}/LIB/Kicad-Libraries/open-Smartwatch.lib")(options "")(descr ""))
 )
