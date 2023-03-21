@@ -431,7 +431,7 @@
     (uuid ab44c4f9-d13e-4a88-8c12-8ea57c59b6fe)
   )
 
-  (hierarchical_label "MPU_SDA" (shape input) (at 123.19 93.98 180) (fields_autoplaced)
+  (hierarchical_label "MPU_SDA" (shape bidirectional) (at 123.19 93.98 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 05b21cc6-6b0a-46e7-8713-f131172cb5cb)
   )
@@ -439,7 +439,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid d72b1fbc-2039-40af-b207-603a0c5bbfa5)
   )
-  (hierarchical_label "MPU_INT" (shape input) (at 164.465 93.98 0) (fields_autoplaced)
+  (hierarchical_label "MPU_INT" (shape output) (at 164.465 93.98 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid f32943a9-b3bc-4509-8f71-816106153cbf)
   )
