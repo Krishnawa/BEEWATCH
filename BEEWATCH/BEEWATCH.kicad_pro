@@ -393,7 +393,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "Button_Switch_Keyboard"
+      "Button_Switch_Keyboard",
+      "Project"
     ],
     "pinned_symbol_libs": []
   },
