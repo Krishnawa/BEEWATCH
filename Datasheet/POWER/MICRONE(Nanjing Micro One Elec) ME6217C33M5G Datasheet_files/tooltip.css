@@ -1,0 +1,163 @@
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .download_data_tooltip_img_preview[is_hidden="true"],
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha #s3downbar_download_tooltip_source_box[is_hidden="true"]
+{
+	display: none !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .tooltip_box {
+/*	background-color: #5E6164 !important;*/
+/*	background: linear-gradient(to bottom, rgba(243,228,171, 0.95), rgba(255, 255, 255, 0.95)) !important;*/
+/*	background: linear-gradient(to bottom, rgb(243,228,171), rgb(255, 255, 255)) !important;*/
+	background: linear-gradient(to bottom, rgb(254,243,205), rgb(255, 255, 255)) !important;
+
+	border: 1px #999999 solid !important;
+
+/*	border: 1px #5E6164 solid !important;*/
+
+	color: #5E6164 !important;
+	padding: 5px !important;
+	border-radius: 8px !important;
+	left: 50% !important;
+	position: absolute !important;
+	z-index: 9999999999 !important;
+	opacity: 0 !important;
+	transition: opacity 0.3s !important;
+	display: none !important;
+	font-size: 12px !important;
+	width: initial;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .tooltip_box .download_data_tooltip *,
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .tooltip_box *{
+	font-size: inherit !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .tooltip_box[is_top="true"] {
+	top: 100% !important;
+	margin-top: 10px !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .tooltip_box[is_top="false"] {
+	bottom: 100% !important;
+	margin-bottom: 10px !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .tooltip_arrow {
+	position: absolute !important;
+	left: 50% !important;
+	margin-left: -5px !important;
+	border-width: 5px !important;
+	border-style: solid !important;
+	opacity: 0 !important;
+	transition: opacity 0.3s !important;
+	display: none !important;
+	padding: 0 !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .tooltip_arrow[is_top="true"] {
+	top: 100% !important;
+	border-color: transparent transparent #5E6164 transparent !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .tooltip_arrow[is_top="false"] {
+	bottom: 100% !important;
+	border-color: #5E6164 transparent transparent transparent !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .tooltipText {
+	font-size: inherit !important;
+	padding: 0px !important;
+	text-align: center !important;
+	white-space: nowrap !important;
+	color: inherit !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .download_data_tooltip * {
+	user-select: text !important;
+	-moz-user-select: text !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	line-height: 1.3em !important;
+	font-size: 9pt !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .download_data_tooltip_head {
+	display: flex !important;
+	padding: 0 10px !important;
+	align-items: center !important;
+	padding-top: 0px !important;
+	padding-bottom: 5px !important;
+	margin-bottom: 0px !important;
+	border-bottom: 1px #000000 dotted !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .download_data_tooltip_img[no_image="true"] {
+	display: none !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha #s3downbar_download_tooltip_filename.download_data_tooltip_filename {
+	padding-left: 10px !important;
+/*	font-weight: bold !important;*/
+	font-size: 1.3em !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .download_data_tooltip_data_box {
+	display: flex !important;
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .download_data_tooltip_data_box[is_hidden_progress="true"] tr.download_progress,
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .download_data_tooltip_data_box[is_hidden_finish="true"] tr.download_finish,
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .download_data_tooltip_data_box[is_hidden_finish="true"] img.download_finish {
+	display: none !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .download_data_tooltip_data {
+	width: initial !important;
+	margin-right: 10px !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .download_data_tooltip_data div[fileNotFound="true"] {
+	color: #990000 !important;
+	font-weight: bold !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .download_data_tooltip_data td {
+	padding: 2px 0 !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .download_data_tooltip_data tr td:first-child div {
+	text-align: right !important;
+	margin-right: 5px !important;
+	color: #3D392E !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .download_data_tooltip_url {
+	width: 250px !important;
+	text-overflow: ellipsis !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .download_data_tooltip_data #s3downbar_download_virus_scan_box[is_hidden="true"] {
+	display: none !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .download_data_tooltip_data #s3downbar_download_virus_scan_box[virus_scan_warning="false"] * {
+	color: #009900 !important;
+	font-weight: bold !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .download_data_tooltip_data #s3downbar_download_virus_scan_box[virus_scan_warning="true"] * {
+	color: #990000 !important;
+	font-weight: bold !important;
+	font-size: 1.1em !important;
+}
+
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .download_data_tooltip_img_preview_box {
+	margin-left: auto !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .download_data_tooltip_img_box {
+	position: relative !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha #s3downbar_download_tooltip_img_size.download_data_tooltip_img_size {
+	position: absolute !important;
+	right: 10px !important;
+	bottom: 10px !important;
+	background-color: rgba(255,255,255, 0.8) !important;
+	padding: 0 2px !important;
+	border-radius: 3px !important;
+	font-size: 0.9em !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .download_data_tooltip_img_preview {
+	box-shadow:  0 0 0 1px rgba(127, 127, 127, 0.6),  0 0 0 7px rgba(255, 251, 234, 0.9),  0 0 2px 8px rgba(127, 127, 127, 0.5) !important;
+	margin: 10px !important;
+	border: none !important;
+	border-radius: 4px !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha .download_data_tooltip_hint {
+	padding: 5px 10px !important;
+	border-top: 1px #000000 dotted !important;
+	margin-top: 0 !important;
+}
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha #s3downbar_download_tooltip_hint_progress.download_data_tooltip_hint,
+#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha #s3downbar_download_tooltip_hint_finish.download_data_tooltip_hint {
+	font-size: 0.9em !important;
+}

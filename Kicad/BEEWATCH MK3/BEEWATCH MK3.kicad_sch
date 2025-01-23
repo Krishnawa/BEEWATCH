@@ -1,0 +1,523 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e9c5fb53-480b-4989-8495-a3341ee99514")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 105.41 55.88) (xy 124.46 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b20afbf-5295-42bb-afc7-7eff4ab9657c")
+	)
+	(wire
+		(pts
+			(xy 105.41 58.42) (xy 124.46 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ab78a37-ea2f-42de-8c57-cbdf1a2fabf0")
+	)
+	(sheet
+		(at 203.2 38.1)
+		(size 31.75 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "15b9618d-10d4-4333-8312-f49228536273")
+		(property "Sheetname" "Display"
+			(at 203.2 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Display.kicad_sch"
+			(at 203.2 64.8466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TFT_SDI" input
+			(at 203.2 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b443aa6a-2543-4bc0-ae40-a3e3c5f5af1f")
+		)
+		(pin "TFT_SCK" input
+			(at 203.2 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "19e454bf-19f1-44a7-8277-2bb5fcd05572")
+		)
+		(pin "TFT_CS" input
+			(at 203.2 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "91b271fa-33ec-432d-89a0-301b6a9d6e70")
+		)
+		(pin "TFT_D{slash}C" input
+			(at 203.2 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5a8e90f7-5a5d-4bbb-8d78-f7362b079089")
+		)
+		(pin "TFT_LED_PIN" input
+			(at 203.2 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f5364bd5-7ccb-4402-ade3-7adbfbc68cdb")
+		)
+		(pin "TFT_RST" input
+			(at 203.2 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8c94d72d-3333-457a-88dd-f2935dc663b5")
+		)
+		(instances
+			(project "BEEWATCH MK3"
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 49.53)
+		(size 44.45 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "33dec73c-f7ec-4dd7-9d85-ef473e07baa9")
+		(property "Sheetname" "RYS8830"
+			(at 60.96 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RYS8830.kicad_sch"
+			(at 60.96 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPS_RXD" input
+			(at 105.41 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d604a8cd-404e-459b-9184-b16b7ee25f86")
+		)
+		(pin "GPS_TXD" output
+			(at 105.41 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8807f10e-f5f6-4675-a6d5-85e93e314e72")
+		)
+		(pin "GPS_PPS" output
+			(at 105.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "29affa09-69fd-454e-8135-5abc500d0869")
+		)
+		(pin "GPS_RST" input
+			(at 105.41 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d8dab0d6-98ff-4131-82e4-3a757a2ec7ab")
+		)
+		(pin "GPS_EN" input
+			(at 105.41 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fada81d8-575b-47bb-ad36-3079b91d8cc3")
+		)
+		(instances
+			(project "BEEWATCH MK3"
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 87.63)
+		(size 35.56 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "45e7f89e-d204-4195-8987-9a9b7a51f032")
+		(property "Sheetname" "ACCELEROMETER"
+			(at 207.01 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPS.kicad_sch"
+			(at 207.01 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MPU_SDA" input
+			(at 207.01 96.647 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6e9d9838-984a-4602-9fef-d8cf0850408d")
+		)
+		(pin "MPU_SCL" input
+			(at 207.01 99.187 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f40645c4-225c-475c-81d5-ca22b420c25b")
+		)
+		(pin "MPU_INT" input
+			(at 207.01 102.997 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e8ee5867-7bdd-439b-b256-2f1fb82f3e50")
+		)
+		(instances
+			(project "BEEWATCH MK3"
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 27.94)
+		(size 59.69 128.27)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "56d77f8e-c069-456f-a514-fdde13f048cd")
+		(property "Sheetname" "ESP32"
+			(at 124.46 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32.kicad_sch"
+			(at 124.46 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPS_RST" input
+			(at 124.46 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "29416cac-5fd4-4a8e-8681-ddd21222c24b")
+		)
+		(pin "SCL" input
+			(at 124.46 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "214c8acb-f106-4c94-8b9f-94a00597663b")
+		)
+		(pin "SDA" input
+			(at 124.46 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "57fadb00-9e72-464f-9b1f-f38926ae2e67")
+		)
+		(pin "GPS_EN" input
+			(at 124.46 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7d1b452e-9ef7-477d-a9c7-794a3a1950c2")
+		)
+		(pin "GPS_PSS" input
+			(at 124.46 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ff4f9956-5c12-475f-b8a1-f3f6aecab6dc")
+		)
+		(pin "LCD_RST" input
+			(at 124.46 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9894d60e-a75f-4cdd-8d3f-a4c6334ef62e")
+		)
+		(pin "LCD_DC" input
+			(at 124.46 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "91deedb3-1cb8-428e-9f40-8536464c75e7")
+		)
+		(pin "LCD_CS" input
+			(at 124.46 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8c38fb24-1bef-47bf-9151-32bcb820760a")
+		)
+		(pin "LCD_MOSI" input
+			(at 124.46 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8f4364e8-4d25-4fdc-9606-f9522fbc7609")
+		)
+		(pin "LCD_SCK" input
+			(at 124.46 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3245a52b-b3b9-4886-b1c5-9728cb6a0074")
+		)
+		(pin "GPS_TXD" output
+			(at 124.46 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9f781f14-1185-429a-9c93-7801e5fa3833")
+		)
+		(pin "GPS_RXD" input
+			(at 124.46 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "502c4dcf-5866-4ae4-af9e-6fb794cc31c6")
+		)
+		(pin "MPU_INT" input
+			(at 124.46 134.62 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c657adc6-9496-4c2d-93aa-154972eac65e")
+		)
+		(pin "BAT_VSENSE" input
+			(at 124.46 139.7 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eb1b9f0e-fec6-4ca5-9f58-15f392d1c464")
+		)
+		(instances
+			(project "BEEWATCH MK3"
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 107.95)
+		(size 49.53 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d9595010-f994-473f-a0a5-39e7f06951fe")
+		(property "Sheetname" "Battery&BMS"
+			(at 59.69 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Battery&BMS.kicad_sch"
+			(at 59.69 154.8896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PWR_SENSE" input
+			(at 109.22 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c15c0505-a03e-42be-af5a-1562ebf24948")
+		)
+		(pin "PWR_EN" input
+			(at 109.22 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eb03ac25-f837-4393-9ee6-f41db7566a17")
+		)
+		(instances
+			(project "BEEWATCH MK3"
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

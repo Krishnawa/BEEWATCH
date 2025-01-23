@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model LTC3549EDCB#TRMPBF
+#/470022/317633/2.50/7/3/Integrated Circuit
+DEF LTC3549EDCB#TRMPBF IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "LTC3549EDCB#TRMPBF" 1050 200 50 H V L CNN
+F2 "SON50P300X200X80-7N-D" 1050 100 50 H I L CNN
+F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3549f.pdf" 1050 0 50 H I L CNN
+F4 "Linear Technology LTC3549EDCB#TRMPBF, Step Down Buck Boost Switching Regulator, 250mA, Adjustable" 1050 -100 50 H I L CNN "Description"
+F5 "0.8" 1050 -200 50 H I L CNN "Height"
+F6 "584-C3549EDCBTRMPBF" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC3549EDCBTRMPBF?qs=hVkxg5c3xu%2Ft3z%252BtqK2sZA%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Analog Devices" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "LTC3549EDCB#TRMPBF" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VIN 1 0 0 200 R 50 50 0 0 P
+X GND_1 2 0 -100 200 R 50 50 0 0 P
+X SW 3 0 -200 200 R 50 50 0 0 P
+X GND_2 7 600 -900 200 U 50 50 0 0 P
+X VFB 6 1200 0 200 L 50 50 0 0 P
+X RUN 5 1200 -100 200 L 50 50 0 0 P
+X MODE 4 1200 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

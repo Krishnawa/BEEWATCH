@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC3549EDCB#TRMPBF
+D Linear Technology LTC3549EDCB#TRMPBF, Step Down Buck Boost Switching Regulator, 250mA, Adjustable
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3549f.pdf
+$ENDCMP
+#
+#End Doc Library
