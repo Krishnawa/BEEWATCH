@@ -108,188 +108,6 @@
 		(layer "F.SilkS")
 		(uuid "1fa9a97a-ced3-4341-ad21-0389a52cd7f3")
 	)
-	(fp_line
-		(start -2.4 -3.65)
-		(end -2.4 -2.15)
-		(stroke
-			(width 0.02)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "142380f7-c8f5-4401-a3b0-e7321b05142f")
-	)
-	(fp_line
-		(start -2.4 -2.15)
-		(end -1 -2.15)
-		(stroke
-			(width 0.02)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "2e45fbe4-5ef0-46de-b1ef-60a4affcd9f8")
-	)
-	(fp_line
-		(start -2.4 2.15)
-		(end -2.4 3.65)
-		(stroke
-			(width 0.02)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "f06b1fc6-f43d-4fde-9b01-1d0a25b80e92")
-	)
-	(fp_line
-		(start -2.4 3.65)
-		(end -1 3.65)
-		(stroke
-			(width 0.02)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "b931daa0-f37c-4dc1-b3db-3cbb2423abde")
-	)
-	(fp_line
-		(start -1 -3.65)
-		(end -2.4 -3.65)
-		(stroke
-			(width 0.02)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "18c4985a-ae48-40a4-a514-08f7d266820b")
-	)
-	(fp_line
-		(start -1 -2.15)
-		(end -1 -3.65)
-		(stroke
-			(width 0.02)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "d5e1c048-ba39-4418-8825-65451f1ce0ca")
-	)
-	(fp_line
-		(start -1 2.15)
-		(end -2.4 2.15)
-		(stroke
-			(width 0.02)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "89bfbeee-9d7c-4f8a-822e-6bd51054e973")
-	)
-	(fp_line
-		(start -1 3.65)
-		(end -1 2.15)
-		(stroke
-			(width 0.02)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "bc9c1671-a6dd-4953-8012-d7bb75c39252")
-	)
-	(fp_line
-		(start 1 -3.65)
-		(end 1 -2.15)
-		(stroke
-			(width 0.02)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "21d3c7a8-7c45-4689-818b-bf7adb8f2431")
-	)
-	(fp_line
-		(start 1 -2.15)
-		(end 2.4 -2.15)
-		(stroke
-			(width 0.02)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "92059d27-6c53-4c14-8d40-306683198f05")
-	)
-	(fp_line
-		(start 1 2.15)
-		(end 1 3.65)
-		(stroke
-			(width 0.02)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "125c45f6-8fc3-494e-a7d0-8be90cd6a2e5")
-	)
-	(fp_line
-		(start 1 3.65)
-		(end 2.4 3.65)
-		(stroke
-			(width 0.02)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "d096a6ae-ed1e-4c06-839a-577b9e336d5e")
-	)
-	(fp_line
-		(start 2.4 -3.65)
-		(end 1 -3.65)
-		(stroke
-			(width 0.02)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "162fc914-c794-4384-9361-5dfbbffc72fe")
-	)
-	(fp_line
-		(start 2.4 -2.15)
-		(end 2.4 -3.65)
-		(stroke
-			(width 0.02)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "8450297b-094e-44f0-a828-03ccff6b12e4")
-	)
-	(fp_line
-		(start 2.4 2.15)
-		(end 1 2.15)
-		(stroke
-			(width 0.02)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "1936539b-76d6-4330-a161-3edd6435e65f")
-	)
-	(fp_line
-		(start 2.4 3.65)
-		(end 2.4 2.15)
-		(stroke
-			(width 0.02)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "1b1b9cbd-d95b-4f83-9171-496f914c0155")
-	)
-	(fp_circle
-		(center -1.5 0)
-		(end -1.05 0)
-		(stroke
-			(width 0.02)
-			(type default)
-		)
-		(fill none)
-		(layer "Dwgs.User")
-		(uuid "b17c1166-ce04-4870-be59-a83eb350f52f")
-	)
-	(fp_circle
-		(center 1.5 0)
-		(end 1.95 0)
-		(stroke
-			(width 0.02)
-			(type default)
-		)
-		(fill none)
-		(layer "Dwgs.User")
-		(uuid "69cd939a-eb55-4a1c-b64a-d38d4dace3e4")
-	)
 	(fp_circle
 		(center -1.5 0)
 		(end -1.052786 0)
@@ -311,6 +129,17 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "f73819b5-51c0-4db3-bb8e-b78fb6ff81d7")
+	)
+	(fp_rect
+		(start -5.2 -3.8)
+		(end 3.2 3.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "9d35ef65-2183-48a4-9610-0dd2677cfcfa")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.7 4.8 0)
@@ -347,19 +176,6 @@
 		(size 1.4 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "dba1dc7f-062e-4c81-b5f7-b245baa8617e")
-	)
-	(group ""
-		(uuid "cadf9eb6-39e3-42a3-b198-2805379f9608")
-		(members "125c45f6-8fc3-494e-a7d0-8be90cd6a2e5" "142380f7-c8f5-4401-a3b0-e7321b05142f"
-			"162fc914-c794-4384-9361-5dfbbffc72fe" "18c4985a-ae48-40a4-a514-08f7d266820b"
-			"1936539b-76d6-4330-a161-3edd6435e65f" "1b1b9cbd-d95b-4f83-9171-496f914c0155"
-			"21d3c7a8-7c45-4689-818b-bf7adb8f2431" "2e45fbe4-5ef0-46de-b1ef-60a4affcd9f8"
-			"69cd939a-eb55-4a1c-b64a-d38d4dace3e4" "8450297b-094e-44f0-a828-03ccff6b12e4"
-			"89bfbeee-9d7c-4f8a-822e-6bd51054e973" "92059d27-6c53-4c14-8d40-306683198f05"
-			"b17c1166-ce04-4870-be59-a83eb350f52f" "b931daa0-f37c-4dc1-b3db-3cbb2423abde"
-			"bc9c1671-a6dd-4953-8012-d7bb75c39252" "d096a6ae-ed1e-4c06-839a-577b9e336d5e"
-			"d5e1c048-ba39-4418-8825-65451f1ce0ca" "f06b1fc6-f43d-4fde-9b01-1d0a25b80e92"
-		)
 	)
 	(model "/home/krishnawa/Projects/BEEWATCH V3/3D/SWITCH/Tact Switch-TK-074-4 Pin SMD.step"
 		(offset

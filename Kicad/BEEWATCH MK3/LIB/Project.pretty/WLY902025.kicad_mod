@@ -79,7 +79,7 @@
 		(uuid "5161180c-bdaf-408d-9b30-91677b9ee7fd")
 	)
 	(fp_text user "+"
-		(at -2.2 -1.3 0)
+		(at 1.5 -1.2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "7013a6ba-58bb-4d8d-be83-887dcac1a5e3")
@@ -92,7 +92,7 @@
 		)
 	)
 	(fp_text user "-"
-		(at 1.3 -1.3 0)
+		(at -2.4 -1.2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "88d4f1fa-7b2d-4d7d-aa80-15ee16d2ad6c")
@@ -117,20 +117,20 @@
 		)
 	)
 	(pad "1" thru_hole rect
-		(at -3.4 -1.8)
-		(size 2 2)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "5ab9749c-d824-49ce-9530-bca6e476dda8")
-	)
-	(pad "2" thru_hole circle
 		(at 3.8 -1.8)
 		(size 2 2)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "6cc6eae6-020a-4481-a356-4752c374b31e")
+	)
+	(pad "2" thru_hole circle
+		(at -3.4 -1.8)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5ab9749c-d824-49ce-9530-bca6e476dda8")
 	)
 	(model "/home/krishnawa/Projects/BEEWATCH V3/3D/BATTERY/BATTERY-BodyFillet002.step"
 		(offset
