@@ -1,0 +1,189 @@
+(footprint "ANT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.3 -12.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ec48fc98-1dfd-4bf4-8324-98050d0c87e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ANT"
+		(at 0.3 -11.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "18a76b8e-91b7-4670-a2e2-569070d942da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.3 -12.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22866a7d-2c3c-4c72-afd3-3092d72980be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.3 -12.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "391351ae-b06d-4208-9d32-9ea611363774")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.3 -12.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b0d41d4-c554-4862-9148-6643d3a5fced")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.2 -2.8)
+		(end -1.2 2.8)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c9921f9e-4ddb-441c-bda8-3c602ae49b2f")
+	)
+	(fp_line
+		(start -1.2 -0.4)
+		(end 1.2 -1.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c56730ff-22ff-4c72-a05b-50e9094ad168")
+	)
+	(fp_line
+		(start -1.2 0.05)
+		(end 1.2 -1.45)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3959ed60-d8a5-4991-bc97-e181e74495c9")
+	)
+	(fp_line
+		(start -1.2 0.45)
+		(end 1.2 -1.05)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b5c21c50-3f79-4dad-aeb7-998078e59b56")
+	)
+	(fp_line
+		(start -1.2 0.8)
+		(end 1.2 -0.7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "73854082-5597-4ab6-8f59-7cc043f34f36")
+	)
+	(fp_line
+		(start -1.2 1.25)
+		(end 1.2 -0.25)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ee49b87d-65fa-44b8-a0fb-5e8d44105c40")
+	)
+	(fp_line
+		(start -1.2 1.65)
+		(end 1.2 0.15)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bbc67451-e675-44ce-9504-77a74a61b46d")
+	)
+	(fp_line
+		(start 1.2 -2.8)
+		(end 1.2 2.8)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c65e081f-090c-4a04-83cb-4c4c0ddaaefa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.3 -9.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c73157b5-7310-4788-ac7d-4996f6d03a7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -2.8 90)
+		(size 2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "c46b7f13-f36c-463c-b1fd-37bde7f35836")
+	)
+	(pad "2" smd roundrect
+		(at 0 2.8 90)
+		(size 2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "3bb85395-22ad-4b77-8e23-c70504a1f992")
+	)
+	(model "/home/krishnawa/git/BEEWATCH/3D/ANTENNA/ANT-BodyPad.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

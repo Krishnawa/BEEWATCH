@@ -1,0 +1,191 @@
+(footprint "Tact Switch-TK-074-4 Pin SMD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.2 -4.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a99f6535-a5af-45d9-8ab6-1cd36caadab5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Tact Switch-TK-074-4 Pin SMD"
+		(at 0 6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1d5544af-3c47-49fd-b5f1-8b1d0e791681")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a76b7492-98f3-4e34-abef-2d1a9bb111a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b9c5153-df1b-46c9-bc5c-e42a8ec2cd88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a4f70ac-75a3-42cf-bf5e-45ed0dfec207")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3 -2.1)
+		(end -3 2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "250408d2-8251-400c-871e-6f91f0555cd8")
+	)
+	(fp_line
+		(start -3 -2.1)
+		(end 3 -2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6e756b12-41e4-478e-98be-b30eb76569a9")
+	)
+	(fp_line
+		(start -3 2.1)
+		(end 3 2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2497f5ed-99b1-461c-b776-3bf35cc75c6c")
+	)
+	(fp_line
+		(start 3 2.1)
+		(end 3 -2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1fa9a97a-ced3-4341-ad21-0389a52cd7f3")
+	)
+	(fp_circle
+		(center -1.5 0)
+		(end -1.052786 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "ed1dcdad-8f62-4b18-812d-22e711c29d39")
+	)
+	(fp_circle
+		(center 1.5 0)
+		(end 1.947214 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "f73819b5-51c0-4db3-bb8e-b78fb6ff81d7")
+	)
+	(fp_rect
+		(start -5.2 -3.8)
+		(end 3.2 3.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "9d35ef65-2183-48a4-9610-0dd2677cfcfa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.7 4.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bda132f8-dd0a-4f1a-a98e-155d67bb1a97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.7 -2.9)
+		(size 1.4 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "311137fd-bd38-45f0-9667-0a3a42744963")
+	)
+	(pad "2" smd rect
+		(at -1.7 2.9)
+		(size 1.4 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f868a8c8-aec0-4801-bd74-866560057821")
+	)
+	(pad "3" smd rect
+		(at 1.7 -2.9)
+		(size 1.4 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9c485e76-63e9-412a-90b8-0e4e8850ccaa")
+	)
+	(pad "4" smd rect
+		(at 1.7 2.9)
+		(size 1.4 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dba1dc7f-062e-4c81-b5f7-b245baa8617e")
+	)
+	(model "/home/krishnawa/git/BEEWATCH/3D/SWITCH/Tact Switch-TK-074-4 Pin SMD.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

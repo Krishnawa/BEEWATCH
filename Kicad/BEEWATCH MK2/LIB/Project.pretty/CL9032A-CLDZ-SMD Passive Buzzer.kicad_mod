@@ -1,0 +1,259 @@
+(footprint "CL9032A-CLDZ-SMD Passive Buzzer"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.2 -5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "82e9ff16-815c-49a3-9d16-f2c505460a5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CL9032A-CLDZ-SMD Passive Buzzer"
+		(at 0.2 7.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9ad40a77-79d5-4f29-999a-bb4f6aa2faef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cad7d34f-573c-4801-9c90-b3d23db5a75c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "982c0f30-f444-4773-a240-4c9908de33fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7254ce0-02d5-4c2c-9cfd-f7038ff8deba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.999999 2.645751)
+		(end -2.999999 5.245752)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cf392863-dce9-4504-b7b6-eb31d5a6ad0d")
+	)
+	(fp_line
+		(start -2.999999 5.245752)
+		(end 3.000001 5.245752)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9fa4d5ae-44c1-4d86-a9e8-7636da32dd5c")
+	)
+	(fp_line
+		(start 3.000001 5.245752)
+		(end 3.000001 2.64575)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "524d0653-32c8-42b1-9c8c-4398a4b15e99")
+	)
+	(fp_arc
+		(start -3.9 -0.9)
+		(mid -0.011523 -4.002483)
+		(end 3.894753 -0.922441)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8a8e1c0a-7b2e-4fb0-a37c-a353f9e84fd0")
+	)
+	(fp_arc
+		(start -3.001874 2.647405)
+		(mid -3.559821 1.829666)
+		(end -3.9 0.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3141f1dd-608a-4878-8fbd-7d053181304e")
+	)
+	(fp_arc
+		(start 3.9 0.9)
+		(mid 3.559821 1.829665)
+		(end 3.001875 2.647403)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "53f73002-3702-4637-ae42-0e8cd42ca70c")
+	)
+	(fp_line
+		(start -5.25 -0.8)
+		(end -5.25 0.8)
+		(stroke
+			(width 0.02)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "5466519e-f632-4c95-b8ec-d72d986a262d")
+	)
+	(fp_line
+		(start -5.25 0.8)
+		(end -3.68 0.8)
+		(stroke
+			(width 0.02)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "d1796e65-b2a2-4bb7-b299-58c503857bf2")
+	)
+	(fp_line
+		(start -3.68 -0.8)
+		(end -5.25 -0.8)
+		(stroke
+			(width 0.02)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "1493ce76-ebec-4f22-9fd4-a186ed597394")
+	)
+	(fp_line
+		(start -3.68 0.8)
+		(end -3.68 -0.8)
+		(stroke
+			(width 0.02)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "27aed255-bfe1-49c3-ad4f-f572930b1821")
+	)
+	(fp_line
+		(start 3.68 -0.8)
+		(end 3.68 0.8)
+		(stroke
+			(width 0.02)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "41b8eeed-3d52-4af1-96d6-26a83782700a")
+	)
+	(fp_line
+		(start 3.68 0.8)
+		(end 5.25 0.8)
+		(stroke
+			(width 0.02)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "0179dbf0-1c0c-4c19-9bb7-aceb2aadba68")
+	)
+	(fp_line
+		(start 5.25 -0.8)
+		(end 3.68 -0.8)
+		(stroke
+			(width 0.02)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "b0f558e1-45fc-4fe9-84bd-6d63f96b171b")
+	)
+	(fp_line
+		(start 5.25 0.8)
+		(end 5.25 -0.8)
+		(stroke
+			(width 0.02)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "0fe972ac-d88e-4491-b370-008d23c69fc6")
+	)
+	(fp_rect
+		(start -5.5 -4.2)
+		(end 5.5 5.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "edf090b6-a593-42e2-9888-8de28841fa84")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.2 9.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e779737d-a871-4d29-929e-d898e799e9d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 4.5 0)
+		(size 1.57 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "32b51a8b-4adb-4e9a-b458-7b4ac70840e1")
+	)
+	(pad "2" smd rect
+		(at -4.5 0)
+		(size 1.57 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "202742be-558b-4deb-b2da-1797e2f82bb8")
+	)
+	(model "/home/krishnawa/git/BEEWATCH/3D/BUZZER/BUZZER-BodyPocket.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
