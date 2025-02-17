@@ -4905,10 +4905,10 @@
 		(uuid "ed467e55-b9d2-48bb-ac90-401fe46c8619")
 	)
 	(junction
-		(at 270.51 85.09)
+		(at 278.13 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f1edf1bd-6a89-43c6-bc63-4008d392f0f0")
+		(uuid "f23cb388-6b6f-4091-8c01-42f6c766fc20")
 	)
 	(no_connect
 		(at 295.91 102.87)
@@ -5314,6 +5314,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 158.75) (xy 342.9 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24fcb2c1-1fb4-4090-ab46-5c919530dc42")
+	)
+	(wire
+		(pts
 			(xy 106.68 55.88) (xy 102.87 55.88)
 		)
 		(stroke
@@ -5331,16 +5341,6 @@
 			(type default)
 		)
 		(uuid "255561ca-1557-4a0f-9f77-7406c8ceadb1")
-	)
-	(wire
-		(pts
-			(xy 270.51 85.09) (xy 270.51 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25f91719-b48e-496a-8dfb-d56bd9dfe31e")
 	)
 	(wire
 		(pts
@@ -5504,16 +5504,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 158.75) (xy 339.09 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bf65f49-77ea-4169-a02a-466b1994f823")
-	)
-	(wire
-		(pts
 			(xy 212.09 123.19) (xy 250.19 123.19)
 		)
 		(stroke
@@ -5541,6 +5531,16 @@
 			(type default)
 		)
 		(uuid "40437b81-8fcf-4193-9e25-c8942f30b9c1")
+	)
+	(wire
+		(pts
+			(xy 273.05 82.55) (xy 273.05 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e7f311-69c1-4e95-85b3-2f8e88a5adca")
 	)
 	(wire
 		(pts
@@ -5834,16 +5834,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 85.09) (xy 273.05 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f7607ea-4863-4bc4-879b-0185ed4e4114")
-	)
-	(wire
-		(pts
 			(xy 248.92 80.01) (xy 248.92 81.28)
 		)
 		(stroke
@@ -5934,16 +5924,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 90.17) (xy 273.05 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67417d0d-5f22-4659-b34d-f51225a83681")
-	)
-	(wire
-		(pts
 			(xy 95.25 67.31) (xy 102.87 67.31)
 		)
 		(stroke
@@ -6021,6 +6001,16 @@
 			(type default)
 		)
 		(uuid "71209343-82e2-4f29-b35b-674a66e22517")
+	)
+	(wire
+		(pts
+			(xy 273.05 82.55) (xy 278.13 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "723fa35a-0669-489c-8a61-f205757b9e5f")
 	)
 	(wire
 		(pts
@@ -6764,7 +6754,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 76.2) (xy 270.51 85.09)
+			(xy 270.51 76.2) (xy 270.51 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8195,7 +8185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project:XL-0807RGBC-WS2812B"
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 201.93 229.87 0)
 			(effects
 				(font

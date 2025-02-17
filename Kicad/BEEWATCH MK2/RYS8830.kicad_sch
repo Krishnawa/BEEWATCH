@@ -926,6 +926,325 @@
 				)
 			)
 		)
+		(symbol "Project_Library:DMP1045U-7"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -1.27 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+				(at 2.54 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -1.27 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DMP1045U-7_0_1"
+				(polyline
+					(pts
+						(xy 1.524 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.905) (xy 1.524 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.508) (xy 2.032 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 2.286) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 3.81 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.81 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -3.81) (xy 0.762 -3.937) (xy 0.762 -4.699) (xy 0.889 -4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.7523 -4.3068) (xy 0.1173 -4.6878) (xy 0.1173 -3.9258) (xy 0.7523 -4.3068)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -4.318) (xy 1.397 -3.937) (xy 1.397 -4.699) (xy 0.762 -4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 1.778) (xy 4.572 1.778) (xy 4.572 -1.778) (xy 2.032 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 0) (xy 2.54 0.381) (xy 2.54 -0.381) (xy 3.556 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.7569 -4.3186) (xy 1.016 -4.318) (xy -0.6238 -4.3193) (xy -0.6238 -0.0962)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 -0.508) (xy 4.191 -0.381) (xy 4.953 -0.381) (xy 5.08 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 -0.381) (xy 4.191 0.254) (xy 4.953 0.254) (xy 4.572 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.921 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.81 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "DMP1045U-7_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Reyas:RYS8830"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1752,6 +2071,301 @@
 				)
 			)
 		)
+		(symbol "Transistor_FET:DMG2302U"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "DMG2302U"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.diodes.com/assets/Datasheets/DMG2302U.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "4.2A Id, 20V Vds, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DMG2302U_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "DMG2302U_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -2192,10 +2806,22 @@
 		(uuid "01618fef-fcf7-4cf0-adaa-cf59e50b0cdf")
 	)
 	(junction
+		(at 78.74 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13746ab8-1b35-412c-b9b7-647e3acbaa9c")
+	)
+	(junction
 		(at 229.87 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1fd1aaab-abc8-4444-aec8-2701b00ed95a")
+	)
+	(junction
+		(at 78.74 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c1e38e7-761b-4506-ae09-0f103f68484f")
 	)
 	(junction
 		(at 106.68 99.06)
@@ -2228,12 +2854,6 @@
 		(uuid "58597d19-a56a-445b-91dc-e2bda88ca279")
 	)
 	(junction
-		(at 85.09 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d772507-d845-43a3-a18d-9449e8e1787f")
-	)
-	(junction
 		(at 208.28 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2246,10 +2866,10 @@
 		(uuid "7d3b093c-8789-48b8-8858-868df6b245e9")
 	)
 	(junction
-		(at 85.09 48.26)
+		(at 91.44 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7d8dd2ab-f92b-4c3b-8024-a5f48c29f542")
+		(uuid "88d276a5-6f6d-408c-8165-0c8f8b1e5bcd")
 	)
 	(junction
 		(at 209.55 149.86)
@@ -2270,10 +2890,16 @@
 		(uuid "b5493e7f-75e2-433e-ade8-156179f6f3e9")
 	)
 	(junction
-		(at 64.77 48.26)
+		(at 91.44 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c74b38d9-22b9-40ee-a7a5-2be6f5b96f60")
+		(uuid "b8f73647-fc9e-4b64-b248-d90129ec5a76")
+	)
+	(junction
+		(at 85.09 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4c66d2e-4f1c-4761-91e4-f5b4de2de808")
 	)
 	(junction
 		(at 209.55 135.89)
@@ -2373,17 +2999,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 48.26) (xy 78.74 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02177df2-d752-4d58-87ff-2b6c56fa9fdd")
-	)
-	(wire
-		(pts
-			(xy 208.28 100.33) (xy 208.28 97.79)
+			(xy 208.28 97.79) (xy 208.28 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2463,7 +3079,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 72.39) (xy 118.11 72.39)
+			(xy 130.81 72.39) (xy 125.73 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2513,16 +3129,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 34.29) (xy 85.09 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "151b4d17-d5a1-48b0-aa3a-fd96387e3432")
-	)
-	(wire
-		(pts
 			(xy 176.53 57.15) (xy 189.23 57.15)
 		)
 		(stroke
@@ -2530,6 +3136,16 @@
 			(type default)
 		)
 		(uuid "16a9febf-2767-475f-a492-f0dc72317a08")
+	)
+	(wire
+		(pts
+			(xy 78.74 176.53) (xy 83.82 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "187abbaf-722a-4353-8b24-41051c56c6b3")
 	)
 	(wire
 		(pts
@@ -2573,6 +3189,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 186.69) (xy 78.74 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "238e57f3-1185-4972-b994-2d6b0b2fdc8a")
+	)
+	(wire
+		(pts
 			(xy 148.59 123.19) (xy 148.59 128.27)
 		)
 		(stroke
@@ -2600,6 +3226,16 @@
 			(type default)
 		)
 		(uuid "2b5c150d-a9b9-4e17-a630-45c6732b6094")
+	)
+	(wire
+		(pts
+			(xy 30.48 59.69) (xy 30.48 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ddd571b-caf8-4c3b-af10-aed6fffeb929")
 	)
 	(wire
 		(pts
@@ -2633,16 +3269,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 40.64) (xy 73.66 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36856bae-8260-4319-b73e-aae546fd7c5c")
-	)
-	(wire
-		(pts
 			(xy 106.68 77.47) (xy 106.68 99.06)
 		)
 		(stroke
@@ -2663,6 +3289,26 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 181.61) (xy 91.44 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca18172-08ee-4bfd-af9c-030d90254fb9")
+	)
+	(wire
+		(pts
+			(xy 120.65 72.39) (xy 118.11 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c94c22-530b-42fa-811c-038e40560c3f")
+	)
+	(wire
+		(pts
 			(xy 52.07 85.09) (xy 49.53 85.09)
 		)
 		(stroke
@@ -2673,16 +3319,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 31.75) (xy 64.77 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43fbce9d-84ee-4025-841c-a1776788bab0")
-	)
-	(wire
-		(pts
 			(xy 229.87 135.89) (xy 248.92 135.89)
 		)
 		(stroke
@@ -2690,6 +3326,16 @@
 			(type default)
 		)
 		(uuid "455cf2de-c022-46b2-89da-0cba71c2abd7")
+	)
+	(wire
+		(pts
+			(xy 91.44 161.29) (xy 91.44 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45642e85-3229-4e59-b02f-385bb3016c65")
 	)
 	(wire
 		(pts
@@ -2713,6 +3359,26 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 153.67) (xy 86.36 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4650e1a7-c78e-426d-bba8-9f91eaa90ee0")
+	)
+	(wire
+		(pts
+			(xy 85.09 68.58) (xy 106.68 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a69d11b-8a98-4a94-a2f2-502aff4ebf08")
+	)
+	(wire
+		(pts
 			(xy 209.55 135.89) (xy 215.9 135.89)
 		)
 		(stroke
@@ -2720,6 +3386,16 @@
 			(type default)
 		)
 		(uuid "4d004fcc-7c10-4b36-8662-5b8f8dd672de")
+	)
+	(wire
+		(pts
+			(xy 73.66 176.53) (xy 78.74 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4db4b1f5-7aa3-4afc-a30f-11c250f45914")
 	)
 	(wire
 		(pts
@@ -2740,6 +3416,16 @@
 			(type default)
 		)
 		(uuid "5314b232-c2cd-4e52-b786-26610451be47")
+	)
+	(wire
+		(pts
+			(xy 91.44 186.69) (xy 91.44 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "532a2e03-5c5d-42d6-b4fb-5e3f184fec31")
 	)
 	(wire
 		(pts
@@ -2783,7 +3469,17 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 97.79) (xy 163.83 102.87)
+			(xy 78.74 186.69) (xy 78.74 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cb318e3-d2eb-4c30-8150-3eb6c9b81bf4")
+	)
+	(wire
+		(pts
+			(xy 163.83 97.79) (xy 163.83 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2853,6 +3549,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 165.1) (xy 78.74 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1e0d9b-a1da-4abe-8de7-4c2253f33daf")
+	)
+	(wire
+		(pts
 			(xy 228.6 83.82) (xy 224.79 83.82)
 		)
 		(stroke
@@ -2893,6 +3599,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 151.13) (xy 62.23 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7736ba34-d64d-42db-8606-e4a3a3918e95")
+	)
+	(wire
+		(pts
 			(xy 241.3 83.82) (xy 247.65 83.82)
 		)
 		(stroke
@@ -2920,6 +3636,16 @@
 			(type default)
 		)
 		(uuid "7846f529-4a47-40e4-83ef-e14d381843b7")
+	)
+	(wire
+		(pts
+			(xy 91.44 167.64) (xy 91.44 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7914ad59-c8ec-4774-bbd2-c2074a012580")
 	)
 	(wire
 		(pts
@@ -2953,26 +3679,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 31.75) (xy 85.09 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81f9e188-619f-4007-b2b3-c725f7a84032")
-	)
-	(wire
-		(pts
-			(xy 85.09 45.72) (xy 85.09 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8291a4dd-845e-4815-aad2-6a42fd692554")
-	)
-	(wire
-		(pts
 			(xy 124.46 57.15) (xy 130.81 57.15)
 		)
 		(stroke
@@ -2983,6 +3689,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 153.67) (xy 78.74 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f6c9a5-ed69-4d20-9ec2-08f083b1a9fd")
+	)
+	(wire
+		(pts
 			(xy 40.64 64.77) (xy 69.85 64.77)
 		)
 		(stroke
@@ -2990,16 +3706,6 @@
 			(type default)
 		)
 		(uuid "8660dd1c-5d60-4a29-ad2f-ced002a2d432")
-	)
-	(wire
-		(pts
-			(xy 64.77 48.26) (xy 68.58 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86682b06-43fc-429c-a4ce-0961543061b4")
 	)
 	(wire
 		(pts
@@ -3083,13 +3789,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 48.26) (xy 64.77 48.26)
+			(xy 85.09 68.58) (xy 85.09 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c00b77c-a2d1-474c-b367-42cc7cd73408")
+		(uuid "9c05a677-bf97-4412-a6fa-415223788ca8")
 	)
 	(wire
 		(pts
@@ -3120,6 +3826,16 @@
 			(type default)
 		)
 		(uuid "a35e4b03-a716-4c9d-ae3e-a888b10c818c")
+	)
+	(wire
+		(pts
+			(xy 78.74 167.64) (xy 91.44 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a404d781-aa16-4ee8-82b8-91d55ed384f9")
 	)
 	(wire
 		(pts
@@ -3183,13 +3899,23 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 68.58) (xy 106.68 68.58)
+			(xy 50.8 68.58) (xy 85.09 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b54663ea-1d71-4e2b-b533-02b41fb153e2")
+	)
+	(wire
+		(pts
+			(xy 78.74 153.67) (xy 78.74 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6070997-1040-4782-ba7f-df2e9aa16358")
 	)
 	(wire
 		(pts
@@ -3240,16 +3966,6 @@
 			(type default)
 		)
 		(uuid "c05eb663-7ea1-42e5-b023-47fce3052fab")
-	)
-	(wire
-		(pts
-			(xy 85.09 34.29) (xy 73.66 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c193e5a4-d5f4-433b-ae8a-44206d11d528")
 	)
 	(wire
 		(pts
@@ -3333,13 +4049,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 48.26) (xy 85.09 85.09)
+			(xy 78.74 176.53) (xy 78.74 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1ac8835-9157-4619-986c-6f985d24930c")
+		(uuid "d2b146a9-3a9d-4ef8-a838-d4870c92e5f4")
 	)
 	(wire
 		(pts
@@ -3453,6 +4169,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 152.4) (xy 121.92 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f135d7b5-05bc-43d0-a8f6-64924cff9f01")
+	)
+	(wire
+		(pts
 			(xy 237.49 119.38) (xy 248.92 119.38)
 		)
 		(stroke
@@ -3503,13 +4229,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 45.72) (xy 64.77 48.26)
+			(xy 96.52 153.67) (xy 121.92 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fbd89f4d-2d52-43c2-a758-45f08c06f44b")
+		(uuid "fcaaf258-9248-400b-9946-40aa616061ef")
 	)
 	(wire
 		(pts
@@ -3604,17 +4330,6 @@
 		)
 		(uuid "f689291b-8c93-43bb-b224-1f7863f4cea6")
 	)
-	(hierarchical_label "GPS_EN"
-		(shape input)
-		(at 54.61 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "47e69033-990d-43b1-a10a-b604573418e0")
-	)
 	(hierarchical_label "GPS_RXD"
 		(shape input)
 		(at 247.65 59.69 0)
@@ -3658,6 +4373,17 @@
 			(justify left)
 		)
 		(uuid "bb528433-77d5-4f3f-9368-21b547a9283c")
+	)
+	(hierarchical_label "GPS_EN"
+		(shape input)
+		(at 73.66 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eace3fae-9f5a-4379-a7e3-1e9458358f7e")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -3750,7 +4476,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 210.058 53.34 90)
 			(effects
 				(font
@@ -3961,7 +4687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 230.378 90.17 90)
 			(effects
 				(font
@@ -4304,7 +5030,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 148.59 120.65 0)
 			(effects
 				(font
@@ -4413,6 +5139,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Project_Library:DMP1045U-7")
+		(at 91.44 157.48 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25e6435d-5c59-45c0-b2e6-13eb8d1098fc")
+		(property "Reference" "Q8"
+			(at 95.25 159.131 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMP1045U-7"
+			(at 90.424 150.241 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 107.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "367cc288-b4bf-43e8-943f-07d7e626967c")
+		)
+		(pin "2"
+			(uuid "2deef66f-3655-4d3a-8e26-71cdf4061516")
+		)
+		(pin "3"
+			(uuid "761636a0-7a2a-4984-a822-3464fecf21a2")
+		)
+		(instances
+			(project "BEEWATCH MK3"
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 106.68 102.87 180)
 		(unit 1)
@@ -4484,7 +5281,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 85.09 31.75 0)
+		(at 121.92 152.4 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4494,7 +5291,7 @@
 		(fields_autoplaced yes)
 		(uuid "28b9a953-4ca4-4586-8cd1-91218263827f")
 		(property "Reference" "#PWR050"
-			(at 85.09 35.56 0)
+			(at 121.92 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4502,8 +5299,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V8"
-			(at 85.09 26.67 0)
+		(property "Value" "GNSS_+1V8"
+			(at 121.92 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4511,7 +5308,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 31.75 0)
+			(at 121.92 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4520,7 +5317,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 31.75 0)
+			(at 121.92 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4529,7 +5326,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 85.09 31.75 0)
+			(at 121.92 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4575,7 +5372,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_Cenker_CKCS3012"
 			(at 68.58 119.38 0)
 			(effects
 				(font
@@ -4645,7 +5442,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 160.02 120.65 0)
 			(effects
 				(font
@@ -4682,147 +5479,6 @@
 			(project "BEEWATCH MK3"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
 					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 209.55 152.4 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35795371-e6b8-47d0-9961-a83c8b1ecb72")
-		(property "Reference" "#PWR066"
-			(at 209.55 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 209.55 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 209.55 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f69db02-efa7-4b77-b29d-cf10b1b34b73")
-		)
-		(instances
-			(project "BEEWATCH MK3"
-				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 73.66 45.72 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3b313ef2-608d-47b6-9f1d-26b12f5a1daf")
-		(property "Reference" "Q4"
-			(at 71.12 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 73.66 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 75.565 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 73.66 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 73.66 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "59318f54-0b53-4864-941e-d1ae1294c8ab")
-		)
-		(pin "2"
-			(uuid "16ad03a0-b1cf-4793-b830-7e7947910067")
-		)
-		(pin "3"
-			(uuid "84714505-2322-4e1a-b009-ebfbd2311317")
-		)
-		(instances
-			(project "BEEWATCH MK3"
-				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -4986,7 +5642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 238.76 83.82 0)
 			(effects
 				(font
@@ -5120,7 +5776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 210.058 90.17 90)
 			(effects
 				(font
@@ -5157,6 +5813,73 @@
 			(project "BEEWATCH MK3"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 123.19 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "567e0809-29af-47d9-a33f-b5d0ae5c431a")
+		(property "Reference" "R49"
+			(at 123.444 74.422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 123.19 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 123.19 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 123.19 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3ed0e68-6d4b-4cd3-9d01-6a4b65851c3d")
+		)
+		(pin "2"
+			(uuid "f6b1ec9a-084c-46ff-9c79-1aa5ac235473")
+		)
+		(instances
+			(project "BEEWATCH MK3"
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -5228,17 +5951,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 208.28 43.18 0)
+		(lib_id "Device:R")
+		(at 78.74 161.29 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "649795e4-88a2-49ca-acf5-49f941aa8640")
-		(property "Reference" "#PWR064"
-			(at 208.28 46.99 0)
+		(uuid "5f95e574-016b-41b0-8777-58a7e2ce9df3")
+		(property "Reference" "R24"
+			(at 75.438 160.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 75.438 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 76.962 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5246,16 +5985,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V8"
-			(at 208.28 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 43.18 0)
+		(property "Datasheet" "~"
+			(at 78.74 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5263,17 +5994,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 208.28 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 208.28 43.18 0)
+		(property "Description" "Resistor"
+			(at 78.74 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5282,12 +6004,91 @@
 			)
 		)
 		(pin "1"
-			(uuid "410d749b-e9bc-4bc5-96ce-6960281b301e")
+			(uuid "89d98ee5-de8a-4f7c-9dbd-6f91b05ef9ac")
+		)
+		(pin "2"
+			(uuid "e9de147f-d0ca-4aa7-8045-ca36986a4f8d")
 		)
 		(instances
 			(project "BEEWATCH MK3"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
-					(reference "#PWR064")
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:DMG2302U")
+		(at 88.9 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "652815d3-5c0b-4205-9ae8-48f7a22ca3ed")
+		(property "Reference" "Q4"
+			(at 95.25 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMG6968U"
+			(at 95.25 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 93.98 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/DMG2302U.pdf"
+			(at 93.98 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.2A Id, 20V Vds, N-Channel MOSFET, SOT-23"
+			(at 88.9 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4b5c5d92-3d88-40b7-b25b-814a0fb35ea1")
+		)
+		(pin "2"
+			(uuid "8dbb3e9e-e0c0-42d9-862b-2e20b7f2af38")
+		)
+		(pin "1"
+			(uuid "1edc1234-2320-4a8b-9874-c74f681ef810")
+		)
+		(instances
+			(project "BEEWATCH MK3"
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -5321,7 +6122,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 106.68 73.66 0)
 			(effects
 				(font
@@ -5358,73 +6159,6 @@
 			(project "BEEWATCH MK3"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 163.83 102.87 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7bd3c954-238e-4099-862f-82520f55b40c")
-		(property "Reference" "#PWR059"
-			(at 163.83 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 163.83 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 163.83 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd1d046a-f713-4e5c-879d-8d4db8f4b7ae")
-		)
-		(instances
-			(project "BEEWATCH MK3"
-				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
-					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -5637,74 +6371,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 64.77 41.91 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "86d1a34a-ebee-4572-acdb-333929ba4b87")
-		(property "Reference" "R24"
-			(at 62.23 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "K10K"
-			(at 62.23 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 62.992 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 64.77 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f82b2e0-db25-4702-82dd-fa8f6d7749fe")
-		)
-		(pin "2"
-			(uuid "f826b4bd-f2a8-46d9-b0e7-0604c106678f")
-		)
-		(instances
-			(project "BEEWATCH MK3"
-				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 30.48 64.77 0)
 		(mirror x)
 		(unit 1)
@@ -5729,7 +6395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 28.702 64.77 90)
 			(effects
 				(font
@@ -5772,17 +6438,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 64.77 31.75 0)
-		(mirror y)
+		(lib_id "Device:R")
+		(at 78.74 181.61 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8bb3d13c-edef-4335-bf5f-64e9d5645a64")
-		(property "Reference" "#PWR047"
-			(at 64.77 35.56 0)
+		(uuid "8c43c441-6667-48a2-b4e5-6efdc9195fc3")
+		(property "Reference" "R50"
+			(at 74.422 183.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 74.168 181.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 76.962 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5790,16 +6472,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 64.77 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 31.75 0)
+		(property "Datasheet" "~"
+			(at 78.74 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5807,17 +6481,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 64.77 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 64.77 31.75 0)
+		(property "Description" "Resistor"
+			(at 78.74 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5826,12 +6491,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5465c772-c8d2-4646-ae33-780469c10e1c")
+			(uuid "cf042ad4-007e-42db-a991-7329a6331add")
+		)
+		(pin "2"
+			(uuid "48a174ad-96a6-481e-a05f-e7e8ed16821b")
 		)
 		(instances
 			(project "BEEWATCH MK3"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
-					(reference "#PWR047")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -5972,6 +6640,73 @@
 			(project "BEEWATCH MK3"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
 					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 208.28 100.33 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97f4915a-d431-4b6f-b1bd-df58b7331964")
+		(property "Reference" "#PWR082"
+			(at 208.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNSS_+1V8"
+			(at 208.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce845e3d-6dcd-45a0-948a-404cb474926e")
+		)
+		(instances
+			(project "BEEWATCH MK3"
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -6137,7 +6872,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 239.268 113.03 90)
 			(effects
 				(font
@@ -6180,53 +6915,18 @@
 		)
 	)
 	(symbol
-		(lib_id "LTC3549EDCB#TRMPBF:LTC3549EDCB#TRMPBF")
-		(at 52.07 82.55 0)
+		(lib_id "power:+3.3V")
+		(at 209.55 152.4 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a00eb626-d728-47b0-b6d8-19fd53643748")
-		(property "Reference" "U6"
-			(at 67.31 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTC3549EDCB#TRMPBF"
-			(at 67.31 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SON50P300X200X80-7N-D"
-			(at 78.74 177.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3549f.pdf"
-			(at 78.74 277.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Linear Technology LTC3549EDCB#TRMPBF, Step Down Buck Boost Switching Regulator, 250mA, Adjustable"
-			(at 52.07 82.55 0)
+		(uuid "9d341f54-d9f2-46c6-b5ed-65646d66f8bc")
+		(property "Reference" "#PWR081"
+			(at 209.55 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6234,81 +6934,48 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.8"
-			(at 78.74 477.47 0)
+		(property "Value" "GNSS_+1V8"
+			(at 209.55 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "584-C3549EDCBTRMPBF"
-			(at 78.74 577.47 0)
+		(property "Footprint" ""
+			(at 209.55 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC3549EDCBTRMPBF?qs=hVkxg5c3xu%2Ft3z%252BtqK2sZA%3D%3D"
-			(at 78.74 677.47 0)
+		(property "Datasheet" ""
+			(at 209.55 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Analog Devices"
-			(at 78.74 777.47 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 209.55 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer_Part_Number" "LTC3549EDCB#TRMPBF"
-			(at 78.74 877.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "bcd15371-41c1-4f22-b5bc-ec18d6a20019")
-		)
-		(pin "7"
-			(uuid "a42f72c8-9617-4384-bf1f-eb8042dab301")
 		)
 		(pin "1"
-			(uuid "c763d224-9dca-4bf7-8f60-4a6f85f35798")
-		)
-		(pin "3"
-			(uuid "145ff9d7-a382-4d18-aa49-ad8cec38f18b")
-		)
-		(pin "2"
-			(uuid "3a39b3e3-dc8c-4b2a-8e52-85c098acae5f")
-		)
-		(pin "4"
-			(uuid "cd0df9d2-6076-480d-971c-e14fbfe45f26")
-		)
-		(pin "5"
-			(uuid "d7cc4c6d-821a-4b19-86b5-45c6d5c3b5d4")
+			(uuid "d927a7ed-206d-4b7f-ba11-48b9ed77ed60")
 		)
 		(instances
-			(project ""
+			(project "BEEWATCH MK3"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
-					(reference "U6")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -6409,7 +7076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 230.378 53.34 90)
 			(effects
 				(font
@@ -6512,6 +7179,73 @@
 			(project "BEEWATCH MK3"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 163.83 104.14 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8c43f57-ee41-44cc-aa04-e1153cd18039")
+		(property "Reference" "#PWR080"
+			(at 163.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNSS_+1V8"
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 163.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d6270bb-f5ea-4934-9c0e-a0b3ca8c72cb")
+		)
+		(instances
+			(project "BEEWATCH MK3"
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -6649,73 +7383,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 30.48 60.96 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "afe92593-b891-4241-b8a8-0de1e09d777d")
-		(property "Reference" "#PWR074"
-			(at 30.48 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 30.48 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 30.48 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d105294-5eb6-4705-9498-8782a1b35831")
-		)
-		(instances
-			(project "BEEWATCH MK3"
-				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 237.49 106.68 0)
 		(mirror y)
@@ -6782,6 +7449,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 62.23 151.13 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc3de828-383e-4552-ab60-f59731c32707")
+		(property "Reference" "#PWR079"
+			(at 62.23 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 62.23 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 62.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d9f1bcd-e248-4d79-b8c5-42b774168755")
+		)
+		(instances
+			(project "BEEWATCH MK3"
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 238.76 59.69 90)
 		(unit 1)
@@ -6807,7 +7541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 238.76 59.69 0)
 			(effects
 				(font
@@ -6916,18 +7650,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 208.28 100.33 0)
-		(mirror x)
+		(lib_id "power:GND")
+		(at 91.44 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "caf96c92-e1c2-47e0-8247-ecde7b32e249")
-		(property "Reference" "#PWR065"
-			(at 208.28 96.52 0)
+		(uuid "bf31b67c-5aaa-40d5-884e-5f00e0b637b7")
+		(property "Reference" "#PWR059"
+			(at 91.44 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6935,8 +7668,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V8"
-			(at 208.28 105.41 0)
+		(property "Value" "GND"
+			(at 91.44 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6944,7 +7677,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 100.33 0)
+			(at 91.44 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6953,7 +7686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 100.33 0)
+			(at 91.44 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6961,8 +7694,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 208.28 100.33 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6971,12 +7704,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "adcecff1-ecdc-4106-9601-cc02c87b66e0")
+			(uuid "a9b3c4d2-41cd-4a06-b461-e8106a0d6e83")
 		)
 		(instances
 			(project "BEEWATCH MK3"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
-					(reference "#PWR065")
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 208.28 43.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c56a3478-df3b-4ebe-a935-49c3d8128981")
+		(property "Reference" "#PWR083"
+			(at 208.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNSS_+1V8"
+			(at 208.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 208.28 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fe6c1ce-e7f7-4862-847d-da455ff9ef83")
+		)
+		(instances
+			(project "BEEWATCH MK3"
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -7008,7 +7808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 211.328 142.24 90)
 			(effects
 				(font
@@ -7078,7 +7878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 88.9 88.9 0)
 			(effects
 				(font
@@ -7215,7 +8015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 88.9 76.2 0)
 			(effects
 				(font
@@ -7318,74 +8118,6 @@
 			(project "BEEWATCH MK3"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
 					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 85.09 41.91 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ded95442-c1cd-4901-9302-bfb3ce6b3149")
-		(property "Reference" "R25"
-			(at 82.55 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 82.55 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 83.312 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 85.09 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b0dbef7-4974-4d7f-9381-10bcc6b06245")
-		)
-		(pin "2"
-			(uuid "ebc43465-1c10-4a8a-a0d3-b4e49b9611ea")
-		)
-		(instances
-			(project "BEEWATCH MK3"
-				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
-					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -7533,6 +8265,141 @@
 		)
 	)
 	(symbol
+		(lib_id "LTC3549EDCB#TRMPBF:LTC3549EDCB#TRMPBF")
+		(at 52.07 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7a23199-3b36-46fc-9363-0db156cf2dbc")
+		(property "Reference" "IC1"
+			(at 67.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTC3549EDCB#TRMPBF"
+			(at 67.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:DFN-6-1EP_3x2mm_P0.5mm_EP1.65x1.35mm"
+			(at 78.74 177.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3549f.pdf"
+			(at 78.74 277.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Linear Technology LTC3549EDCB#TRMPBF, Step Down Buck Boost Switching Regulator, 250mA, Adjustable"
+			(at 52.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 78.74 477.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "584-C3549EDCBTRMPBF"
+			(at 78.74 577.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC3549EDCBTRMPBF?qs=hVkxg5c3xu%2Ft3z%252BtqK2sZA%3D%3D"
+			(at 78.74 677.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 78.74 777.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTC3549EDCB#TRMPBF"
+			(at 78.74 877.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "0feed1ab-72ba-416c-8c52-d747d27ceab4")
+		)
+		(pin "3"
+			(uuid "faa88c28-65ae-4279-9e1d-63ec555a4499")
+		)
+		(pin "5"
+			(uuid "4289137e-0728-44c2-9639-2f542f0a13b0")
+		)
+		(pin "1"
+			(uuid "044bb91b-fbeb-40b3-8276-df209ac2187d")
+		)
+		(pin "2"
+			(uuid "b8fda72b-5009-4592-8c51-9e4540543076")
+		)
+		(pin "6"
+			(uuid "ee603ea0-1e37-4d48-beb1-35e815ee6486")
+		)
+		(pin "4"
+			(uuid "816dfc2c-0891-4edd-88be-16e68e6164af")
+		)
+		(instances
+			(project ""
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 67.31 105.41 0)
 		(unit 1)
@@ -7599,6 +8466,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 30.48 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa32aaf2-3bbf-4a98-b120-fd8657861d37")
+		(property "Reference" "#PWR047"
+			(at 30.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNSS_+1V8"
+			(at 30.48 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 30.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f95c2941-7c54-4ad6-9ca6-3bdd87af4701")
+		)
+		(instances
+			(project "BEEWATCH MK3"
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 229.87 142.24 0)
 		(mirror y)
@@ -7624,7 +8558,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 231.648 142.24 90)
 			(effects
 				(font
