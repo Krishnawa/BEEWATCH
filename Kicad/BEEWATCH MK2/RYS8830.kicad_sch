@@ -4290,6 +4290,46 @@
 		)
 		(uuid "e5180e53-d871-4448-86e9-dbe9ecce2c2f")
 	)
+	(label "GNSS_+1.8V"
+		(at 208.28 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15c21ecb-3fff-4fb5-8124-f2a2f19de03b")
+	)
+	(label "GNSS_+1.8V"
+		(at 208.28 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "337f5891-16e8-48ca-abdd-a0094325e6cf")
+	)
+	(label "GNSS_+1.8V"
+		(at 209.55 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "415aa546-befd-4a9b-8bfa-d86af05ee14a")
+	)
+	(label "GNSS_+1.8V"
+		(at 163.83 104.14 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aecb7fcb-94a4-48a8-9338-69e2895fcc1d")
+	)
 	(label "TXD"
 		(at 182.88 72.39 0)
 		(effects
@@ -6646,73 +6686,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 208.28 100.33 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97f4915a-d431-4b6f-b1bd-df58b7331964")
-		(property "Reference" "#PWR082"
-			(at 208.28 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNSS_+1V8"
-			(at 208.28 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 208.28 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce845e3d-6dcd-45a0-948a-404cb474926e")
-		)
-		(instances
-			(project "BEEWATCH MK3"
-				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
-					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 72.39 64.77 270)
 		(unit 1)
@@ -6909,73 +6882,6 @@
 			(project "BEEWATCH MK3"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
 					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 209.55 152.4 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d341f54-d9f2-46c6-b5ed-65646d66f8bc")
-		(property "Reference" "#PWR081"
-			(at 209.55 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNSS_+1V8"
-			(at 209.55 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 209.55 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d927a7ed-206d-4b7f-ba11-48b9ed77ed60")
-		)
-		(instances
-			(project "BEEWATCH MK3"
-				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
-					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -7179,73 +7085,6 @@
 			(project "BEEWATCH MK3"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 163.83 104.14 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8c43f57-ee41-44cc-aa04-e1153cd18039")
-		(property "Reference" "#PWR080"
-			(at 163.83 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNSS_+1V8"
-			(at 163.83 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 163.83 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d6270bb-f5ea-4934-9c0e-a0b3ca8c72cb")
-		)
-		(instances
-			(project "BEEWATCH MK3"
-				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
-					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -7710,73 +7549,6 @@
 			(project "BEEWATCH MK3"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
 					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 208.28 43.18 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c56a3478-df3b-4ebe-a935-49c3d8128981")
-		(property "Reference" "#PWR083"
-			(at 208.28 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNSS_+1V8"
-			(at 208.28 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 208.28 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5fe6c1ce-e7f7-4862-847d-da455ff9ef83")
-		)
-		(instances
-			(project "BEEWATCH MK3"
-				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
-					(reference "#PWR083")
 					(unit 1)
 				)
 			)

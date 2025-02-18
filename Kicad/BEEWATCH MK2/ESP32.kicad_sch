@@ -12004,7 +12004,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_1210-4Pin_1.2x1.0mm"
+		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 			(at 73.66 139.7 0)
 			(effects
 				(font
