@@ -3757,7 +3757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project:WLY902025"
+		(property "Footprint" "BATTERY:WLY902025"
 			(at 107.95 68.326 90)
 			(effects
 				(font

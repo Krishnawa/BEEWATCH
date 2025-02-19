@@ -8067,7 +8067,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project:Tact Switch-TK-074-4 Pin SMD"
+		(property "Footprint" "SM_SWITCH:Tact Switch-TK-074-4 Pin SMD"
 			(at 134.62 233.68 0)
 			(effects
 				(font
@@ -8416,7 +8416,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project:XL-0807RGBC-WS2812B"
+		(property "Footprint" "SM_LED:XL-0807RGBC-WS2812B"
 			(at 201.93 229.87 0)
 			(effects
 				(font
@@ -8629,7 +8629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project:ANT"
+		(property "Footprint" "ANTENNA:RYS8830_ANT"
 			(at 342.9 151.765 0)
 			(effects
 				(font
@@ -9044,7 +9044,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project:Tact Switch-TK-074-4 Pin SMD"
+		(property "Footprint" "SM_SWITCH:Tact Switch-TK-074-4 Pin SMD"
 			(at 100.33 232.41 0)
 			(effects
 				(font
@@ -10250,7 +10250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project:CL9032A-CLDZ-SMD Passive Buzzer"
+		(property "Footprint" "SM_BUZZER:CL9032A-CLDZ-SMD Passive Buzzer"
 			(at 334.645 208.28 90)
 			(effects
 				(font

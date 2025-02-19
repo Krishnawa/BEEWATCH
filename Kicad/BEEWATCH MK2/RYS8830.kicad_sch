@@ -4994,7 +4994,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project:RYS8830"
+		(property "Footprint" "REYAS:RYS8830"
 			(at 133.35 46.99 0)
 			(effects
 				(font

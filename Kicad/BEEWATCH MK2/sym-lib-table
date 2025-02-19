@@ -1,9 +1,7 @@
 (sym_lib_table
   (version 7)
-  (lib (name "Project_Library")(type "KiCad")(uri "${KIPRJMOD}/LIB/Project_Library.kicad_sym")(options "")(descr ""))
-  (lib (name "Reyas")(type "KiCad")(uri "${KIPRJMOD}/LIB/Reyas.kicad_sym")(options "")(descr ""))
-  (lib (name "LTC3549EDCB#TRMPBF")(type "KiCad")(uri "${KIPRJMOD}/LIB/ADI LTC3549EDCB/KiCad/LTC3549EDCB#TRMPBF.kicad_sym")(options "")(descr ""))
-  (lib (name "LDO")(type "KiCad")(uri "${KIPRJMOD}/LIB/LDO.kicad_sym")(options "")(descr ""))
-  (lib (name "SWITCH")(type "KiCad")(uri "${KIPRJMOD}/LIB/SWITCH.kicad_sym")(options "")(descr ""))
-  (lib (name "ANTENNA")(type "KiCad")(uri "/home/krishnawa/git/KiCadoodle/LIB/ANTENNA/ANTENNA.kicad_sym")(options "")(descr ""))
+  (lib (name "SWITCH")(type "KiCad")(uri "${KIPRJMOD}/KiCadoodle/LIB/SM_SWITCH/SWITCH.kicad_sym")(options "")(descr ""))
+  (lib (name "LDO")(type "KiCad")(uri "${KIPRJMOD}/KiCadoodle/LIB/SM_LDO/LDO.kicad_sym")(options "")(descr ""))
+  (lib (name "Reyas")(type "KiCad")(uri "${KIPRJMOD}/KiCadoodle/LIB/REYAS/Reyas.kicad_sym")(options "")(descr ""))
+  (lib (name "ANTENNA")(type "KiCad")(uri "${KIPRJMOD}/KiCadoodle/LIB/ANTENNA/ANTENNA.kicad_sym")(options "")(descr ""))
 )
