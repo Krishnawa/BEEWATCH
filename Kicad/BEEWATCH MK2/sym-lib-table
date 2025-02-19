@@ -5,4 +5,5 @@
   (lib (name "LTC3549EDCB#TRMPBF")(type "KiCad")(uri "${KIPRJMOD}/LIB/ADI LTC3549EDCB/KiCad/LTC3549EDCB#TRMPBF.kicad_sym")(options "")(descr ""))
   (lib (name "LDO")(type "KiCad")(uri "${KIPRJMOD}/LIB/LDO.kicad_sym")(options "")(descr ""))
   (lib (name "SWITCH")(type "KiCad")(uri "${KIPRJMOD}/LIB/SWITCH.kicad_sym")(options "")(descr ""))
+  (lib (name "ANTENNA")(type "KiCad")(uri "/home/krishnawa/git/KiCadoodle/LIB/ANTENNA/ANTENNA.kicad_sym")(options "")(descr ""))
 )

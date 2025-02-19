@@ -1723,6 +1723,151 @@
 				)
 			)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:L"
 			(pin_numbers hide)
 			(pin_names
@@ -4773,6 +4918,18 @@
 		(uuid "556a717d-6aa3-4f93-b86f-a2404c55d5ec")
 	)
 	(junction
+		(at 332.74 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5976b7e9-15a6-4f94-ba93-20ea3e9816d8")
+	)
+	(junction
+		(at 332.74 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "650bb560-efd1-4798-a93f-089392657507")
+	)
+	(junction
 		(at 119.38 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5208,6 +5365,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 207.01) (xy 327.66 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "166ddcb7-68a1-46c4-898e-69736b0834d9")
+	)
+	(wire
+		(pts
 			(xy 295.91 118.11) (xy 306.07 118.11)
 		)
 		(stroke
@@ -5375,6 +5542,16 @@
 			(type default)
 		)
 		(uuid "2cedab7d-e1d6-4b38-bd54-6963728a2c22")
+	)
+	(wire
+		(pts
+			(xy 332.74 205.74) (xy 332.74 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3e4465-f478-4032-a7e0-521931687dd2")
 	)
 	(wire
 		(pts
@@ -5548,7 +5725,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 200.66) (xy 332.74 208.28)
+			(xy 332.74 200.66) (xy 332.74 205.74)
 		)
 		(stroke
 			(width 0)
@@ -5798,6 +5975,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 205.74) (xy 332.74 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b40c622-9776-48a9-9eda-e405495f37f3")
+	)
+	(wire
+		(pts
 			(xy 212.09 125.73) (xy 250.19 125.73)
 		)
 		(stroke
@@ -5835,6 +6022,16 @@
 			(type default)
 		)
 		(uuid "5e5b8a73-dd61-436d-9d5d-505fca1aed07")
+	)
+	(wire
+		(pts
+			(xy 332.74 217.17) (xy 332.74 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eeb706e-7a06-4719-bb29-d774bfe9889b")
 	)
 	(wire
 		(pts
@@ -5978,7 +6175,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 213.36) (xy 332.74 219.71)
+			(xy 332.74 213.36) (xy 332.74 217.17)
 		)
 		(stroke
 			(width 0)
@@ -6045,6 +6242,16 @@
 			(type default)
 		)
 		(uuid "744fdb49-91b3-4b6d-a80b-0f0434810c8c")
+	)
+	(wire
+		(pts
+			(xy 327.66 217.17) (xy 332.74 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75bb0270-59a6-4eb6-875a-ffb0fdde77c0")
 	)
 	(wire
 		(pts
@@ -6855,6 +7062,16 @@
 			(type default)
 		)
 		(uuid "e3f1e6bb-a0d3-418b-abcd-b298cd4145c9")
+	)
+	(wire
+		(pts
+			(xy 327.66 214.63) (xy 327.66 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e650c796-e865-48bc-b996-16b1356a0824")
 	)
 	(wire
 		(pts
@@ -11699,6 +11916,75 @@
 			(project "BEEWATCH MK3"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 327.66 210.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3305b2d-e136-4243-a22b-962b2eeb5415")
+		(property "Reference" "D4"
+			(at 330.835 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ZLLS410TA"
+			(at 323.85 215.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
+			(at 327.66 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 327.66 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 327.66 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "230ce6da-c359-4246-9660-3e22f0cc6709")
+		)
+		(pin "2"
+			(uuid "90b7197e-449f-4d2d-9c24-7aa34b3f1b99")
+		)
+		(instances
+			(project "BEEWATCH MK3"
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
+					(reference "D4")
 					(unit 1)
 				)
 			)

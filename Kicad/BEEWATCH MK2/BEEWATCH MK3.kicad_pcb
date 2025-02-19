@@ -4175,7 +4175,7 @@
 			(size 1.475 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 122 "GNSS_+1V8")
+			(net 87 "/RYS8830/GNSS_+1.8V")
 			(pinfunction "G")
 			(pintype "input")
 			(uuid "5361f905-91d8-4728-a3f0-ea4584b50c74")
@@ -4652,7 +4652,7 @@
 			(size 1.475 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 122 "GNSS_+1V8")
+			(net 87 "/RYS8830/GNSS_+1.8V")
 			(pinfunction "G")
 			(pintype "input")
 			(uuid "09d7df2b-44f5-4f29-9a1b-4b24d9c95586")
@@ -5169,7 +5169,7 @@
 			(size 0.715 0.64)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 122 "GNSS_+1V8")
+			(net 87 "/RYS8830/GNSS_+1.8V")
 			(pintype "passive")
 			(uuid "24721c0e-d10a-486a-85ac-b637d490e1b2")
 		)
@@ -8457,7 +8457,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "4604b4ad-ce69-4520-a7bf-1240f1e18609")
-		(at 147.9 98)
+		(at 141.1 95.2)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R29"
@@ -9533,7 +9533,7 @@
 			(size 1.475 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 122 "GNSS_+1V8")
+			(net 87 "/RYS8830/GNSS_+1.8V")
 			(pinfunction "G")
 			(pintype "input")
 			(uuid "2753434c-66c3-455b-8664-92480c56c162")
@@ -9767,7 +9767,7 @@
 			(size 0.715 0.64)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 122 "GNSS_+1V8")
+			(net 87 "/RYS8830/GNSS_+1.8V")
 			(pintype "passive")
 			(uuid "5247aa46-a37a-41fd-af81-95076eceba7b")
 		)
@@ -10905,7 +10905,7 @@
 			(at 2.6 4.1)
 			(size 0.8 1.2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 122 "GNSS_+1V8")
+			(net 87 "/RYS8830/GNSS_+1.8V")
 			(pinfunction "SYSTEM0")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -14374,7 +14374,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "89411fb4-08b0-491a-8c61-a90cc08f8827")
-		(at 141.2 96.9)
+		(at 140.9 97.4)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R43"
@@ -18215,7 +18215,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "cb3708f9-9f79-495c-86d5-5f94b2db51cc")
-		(at 148.2 100.1 90)
+		(at 147.9 100 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R37"
@@ -19738,7 +19738,7 @@
 			(size 0.715 0.64)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 122 "GNSS_+1V8")
+			(net 87 "/RYS8830/GNSS_+1.8V")
 			(pintype "passive")
 			(uuid "04f9e3b5-1340-474e-9fbe-f04c6099c07a")
 		)
@@ -20233,7 +20233,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e91c2e3a-4fd1-498d-b8a1-7d2d62e431f4")
-		(at 164.35 101.86 -90)
+		(at 164.35 101.4 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R26"
