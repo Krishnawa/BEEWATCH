@@ -1,0 +1,3 @@
+[submodule "Kicad/BEEWATCH MK2/KiCadoodle"]
+	path = Kicad/BEEWATCH MK2/KiCadoodle
+	url = https://github.com/Krishnawa/KiCadoodle.git
