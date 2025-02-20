@@ -22196,7 +22196,7 @@
 			(pintype "passive")
 			(uuid "9df50cf4-ba41-484e-81c8-5be3ec0ed9be")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_EuroQuartz_EQ161-2Pin_3.2x1.5mm.wrl"
+		(model "${KIPRJMOD}/KiCadoodle/LIB/SM_CRYSTAL/3D/3.2x1.5/ABS07-32.768KHZ-9-T.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22204,7 +22204,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -24256,7 +24256,7 @@
 			(pintype "passive")
 			(uuid "5021ba63-c9af-4a30-acb7-3e02a5700de0")
 		)
-		(model "/home/krishnawa/git/BEEWATCH/3D/BUZZER/BUZZER-BodyPocket.step"
+		(model "${KIPRJMOD}/KiCadoodle/LIB/SM_BUZZER/3D/CL9032A-CLDZ-SMD Passive Buzzer/BUZZER-BodyPocket.step"
 			(offset
 				(xyz 0 0 0)
 			)
