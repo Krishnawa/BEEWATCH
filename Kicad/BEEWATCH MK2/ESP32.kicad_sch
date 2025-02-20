@@ -8629,7 +8629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ANTENNA:RYS8830_ANT"
+		(property "Footprint" "ANTENNA:ESP32_ZERO_ANT"
 			(at 342.9 151.765 0)
 			(effects
 				(font
