@@ -5038,6 +5038,12 @@
 		(uuid "cc998d2c-da33-4263-8ae2-7cf67d849ceb")
 	)
 	(junction
+		(at 307.34 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccca3bce-ca99-4e95-99a2-1265f329e080")
+	)
+	(junction
 		(at 313.69 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5108,10 +5114,6 @@
 		(uuid "70cee649-9a7e-46b6-98f5-ad18a01347c9")
 	)
 	(no_connect
-		(at 306.07 153.67)
-		(uuid "7a5239f1-c496-43af-b78c-8a58f7597f2c")
-	)
-	(no_connect
 		(at 306.07 143.51)
 		(uuid "8e52e4f6-987b-4176-b35f-7cd5fa41f0c4")
 	)
@@ -5130,10 +5132,6 @@
 	(no_connect
 		(at 195.58 222.25)
 		(uuid "c57943a9-29db-415a-9187-32b8664707c7")
-	)
-	(no_connect
-		(at 306.07 151.13)
-		(uuid "cdaa14cf-9369-4317-b6ee-57e1444074b2")
 	)
 	(no_connect
 		(at 306.07 130.81)
@@ -5332,6 +5330,16 @@
 			(type default)
 		)
 		(uuid "1152df53-b797-41e5-9e54-89670fd83f72")
+	)
+	(wire
+		(pts
+			(xy 304.8 153.67) (xy 307.34 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1376071f-a2dd-4840-87e3-c00cd268892d")
 	)
 	(wire
 		(pts
@@ -5845,7 +5853,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 153.67) (xy 306.07 153.67)
+			(xy 295.91 153.67) (xy 299.72 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6225,7 +6233,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 151.13) (xy 306.07 151.13)
+			(xy 295.91 151.13) (xy 299.72 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6925,6 +6933,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 152.4) (xy 307.34 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdada960-d4e0-4611-bafd-b5a8bb9e96f8")
+	)
+	(wire
+		(pts
 			(xy 106.68 233.68) (xy 100.33 233.68)
 		)
 		(stroke
@@ -7005,6 +7023,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 151.13) (xy 307.34 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfb7aff5-7151-478f-97e5-8bf7e956b445")
+	)
+	(wire
+		(pts
 			(xy 212.09 128.27) (xy 250.19 128.27)
 		)
 		(stroke
@@ -7042,6 +7070,16 @@
 			(type default)
 		)
 		(uuid "e0e88126-bfaf-48fb-8e89-6f9bc41b6dad")
+	)
+	(wire
+		(pts
+			(xy 307.34 153.67) (xy 307.34 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e124e882-50ad-4d95-aee8-c75e21762592")
 	)
 	(wire
 		(pts
@@ -9320,7 +9358,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-S3"
+		(property "Value" "ESP32-S3FH4R2"
 			(at 275.2441 168.91 0)
 			(effects
 				(font
@@ -10077,6 +10115,72 @@
 			(project "BEEWATCH MK3"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 307.34 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "766dbe17-d09c-40ec-858b-98aa85329528")
+		(property "Reference" "#PWR064"
+			(at 313.69 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 308.864 154.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 307.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aff9df2b-0085-4eed-833d-c9a3581a5f57")
+		)
+		(instances
+			(project "BEEWATCH MK3"
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -11097,6 +11201,73 @@
 			(project ""
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 302.26 153.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7d521ec-0f54-469d-9c18-48589580a722")
+		(property "Reference" "R52"
+			(at 302.768 155.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 302.514 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 302.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 302.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 302.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "129273d1-ad09-4d81-98e7-fda8714a7089")
+		)
+		(pin "2"
+			(uuid "8642a4eb-3de7-4071-b498-54d698c07a83")
+		)
+		(instances
+			(project "BEEWATCH MK3"
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -12467,6 +12638,73 @@
 			(project "BEEWATCH MK3"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 302.26 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffa19bc7-71b9-418f-a100-7b526e6911a8")
+		(property "Reference" "R51"
+			(at 301.752 149.352 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 302.006 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 302.26 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 302.26 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 302.26 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d730db2d-ba51-4795-91e9-02995792ba2e")
+		)
+		(pin "2"
+			(uuid "e38cce77-9bb9-4e89-ba48-8b649b5e83fe")
+		)
+		(instances
+			(project "BEEWATCH MK3"
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
+					(reference "R51")
 					(unit 1)
 				)
 			)
