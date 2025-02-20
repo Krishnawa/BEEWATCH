@@ -7567,7 +7567,7 @@
 		(descr "SOT, 3 Pin (JEDEC MO-178 inferred 3-pin variant https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q8"
-			(at -16.0375 -47.75 90)
+			(at 1.6 -2 90)
 			(layer "F.SilkS")
 			(uuid "013ecefe-048b-4962-a57b-44fcdfc3883d")
 			(effects
@@ -23777,11 +23777,11 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "4dfd50b8-8b52-43e2-a633-a0477c80d87b")
-		(at 168.464645 107.05 180)
+		(at 166.6 105 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
-			(at 0 1.17 0)
+			(at 0 1.17 90)
 			(layer "B.SilkS")
 			(uuid "7116e44c-eb0e-4db5-9a93-1e57ddf7ae06")
 			(effects
@@ -23793,7 +23793,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 0 -1.17 0)
+			(at 0 -1.17 90)
 			(layer "B.Fab")
 			(uuid "d792e830-a08c-43b9-b4ee-da4535705827")
 			(effects
@@ -23805,7 +23805,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -23819,7 +23819,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -23833,7 +23833,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -23852,18 +23852,8 @@
 		(sheetfile "ESP32.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 0.167621 0.38)
-			(end -0.167621 0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "1cb5560f-43e4-4e0c-b925-19b3f495cca9")
-		)
-		(fp_line
-			(start 0.167621 -0.38)
-			(end -0.167621 -0.38)
+			(start 0.167621 -0.380001)
+			(end -0.167621 -0.380001)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -23872,14 +23862,14 @@
 			(uuid "6018c745-bd47-478e-9e59-20d625df9bae")
 		)
 		(fp_line
-			(start 1.1 0.47)
-			(end -1.1 0.47)
+			(start 0.167621 0.380001)
+			(end -0.167621 0.380001)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "B.CrtYd")
-			(uuid "8b9fe5a1-9148-4c61-bb74-2ce0e86fbe3b")
+			(layer "B.SilkS")
+			(uuid "1cb5560f-43e4-4e0c-b925-19b3f495cca9")
 		)
 		(fp_line
 			(start 1.1 -0.47)
@@ -23892,16 +23882,6 @@
 			(uuid "5689a017-e836-4522-877c-40093cd3a7df")
 		)
 		(fp_line
-			(start -1.1 0.47)
-			(end -1.1 -0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "99a9fc8c-e21e-4ca3-b326-2b2e63bc7a26")
-		)
-		(fp_line
 			(start -1.1 -0.47)
 			(end 1.1 -0.47)
 			(stroke
@@ -23912,14 +23892,24 @@
 			(uuid "4c85f423-4b0d-4069-9b95-9c1d25e72b67")
 		)
 		(fp_line
-			(start 0.525 0.27)
-			(end -0.525 0.27)
+			(start 1.1 0.47)
+			(end -1.1 0.47)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "159d8c68-699e-443c-ad5e-6f1321a0fb05")
+			(layer "B.CrtYd")
+			(uuid "8b9fe5a1-9148-4c61-bb74-2ce0e86fbe3b")
+		)
+		(fp_line
+			(start -1.1 0.47)
+			(end -1.1 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "99a9fc8c-e21e-4ca3-b326-2b2e63bc7a26")
 		)
 		(fp_line
 			(start 0.525 -0.27)
@@ -23932,16 +23922,6 @@
 			(uuid "dc6d5b01-95c8-4446-bbf0-8c2ed4a50517")
 		)
 		(fp_line
-			(start -0.525 0.27)
-			(end -0.525 -0.27)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "b754ed70-a1e4-4f00-b885-c1816257dfe6")
-		)
-		(fp_line
 			(start -0.525 -0.27)
 			(end 0.525 -0.27)
 			(stroke
@@ -23951,8 +23931,28 @@
 			(layer "B.Fab")
 			(uuid "c8b9943c-b63a-4c5a-a048-eab7422e0663")
 		)
+		(fp_line
+			(start 0.525 0.27)
+			(end -0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "159d8c68-699e-443c-ad5e-6f1321a0fb05")
+		)
+		(fp_line
+			(start -0.525 0.27)
+			(end -0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "b754ed70-a1e4-4f00-b885-c1816257dfe6")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(uuid "a34c31bd-8a59-40db-9677-84963717a6d2")
 			(effects
@@ -23964,7 +23964,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.5975 0 180)
+			(at -0.5975 0 90)
 			(size 0.715 0.64)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
@@ -23973,7 +23973,7 @@
 			(uuid "040a64c5-f932-42b0-9f8d-17da6144bc5c")
 		)
 		(pad "2" smd roundrect
-			(at 0.5975 0 180)
+			(at 0.5975 0 90)
 			(size 0.715 0.64)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
@@ -25049,9 +25049,9 @@
 	(footprint "SM_LED:XL-0807RGBC-WS2812B"
 		(layer "B.Cu")
 		(uuid "7b43c575-8b81-47d7-8a29-92a0274c4b86")
-		(at 167.1 111.1)
+		(at 168.7 104.9 180)
 		(property "Reference" "D1"
-			(at 0.5 1.7 180)
+			(at 0.5 1.7 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "a57941a0-444b-4561-919a-231048e21447")
@@ -25064,7 +25064,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 0 -1 180)
+			(at 0 -1 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "c8351fd2-f5e7-498e-b726-a397d1c5164a")
@@ -25077,7 +25077,7 @@
 			)
 		)
 		(property "Footprint" "SM_LED:XL-0807RGBC-WS2812B"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -25091,7 +25091,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -25105,7 +25105,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -25124,16 +25124,6 @@
 		(sheetfile "ESP32.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 0.75 -0.9)
-			(end -0.75 -0.9)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "B.SilkS")
-			(uuid "71771c43-d36e-4f16-b445-1d47f4739c26")
-		)
-		(fp_line
 			(start 0.75 0.9)
 			(end -0.75 0.9)
 			(stroke
@@ -25143,9 +25133,20 @@
 			(layer "B.SilkS")
 			(uuid "03cc083f-0cec-4154-8261-f2881f9dd01e")
 		)
-		(fp_rect
-			(start -1.15 1.05)
-			(end 1.15 -1.05)
+		(fp_line
+			(start 0.75 -0.9)
+			(end -0.75 -0.9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "B.SilkS")
+			(uuid "71771c43-d36e-4f16-b445-1d47f4739c26")
+		)
+		(fp_poly
+			(pts
+				(xy -1.15 1.05) (xy 1.15 1.05) (xy 1.15 -1.05) (xy -1.15 -1.05)
+			)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -25155,7 +25156,7 @@
 			(uuid "e56f7b94-3b95-4b1b-b793-aa80fde1db72")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "4c340aad-2e6d-4944-aea7-29b6b0e558a5")
@@ -25168,7 +25169,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at 0.75 0.45)
+			(at 0.75 0.45 180)
 			(size 0.6 0.7)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
@@ -25178,7 +25179,7 @@
 			(uuid "e18d470f-431a-47e6-aa25-75fe9fcd4011")
 		)
 		(pad "2" smd roundrect
-			(at -0.75 0.45)
+			(at -0.75 0.45 180)
 			(size 0.6 0.7)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
@@ -25188,7 +25189,7 @@
 			(uuid "d2cf2b04-f839-4a67-880a-74daa94a1ee0")
 		)
 		(pad "3" smd roundrect
-			(at -0.75 -0.45)
+			(at -0.75 -0.45 180)
 			(size 0.6 0.7)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
@@ -25198,7 +25199,7 @@
 			(uuid "cd5f7f23-22e7-4a77-ae88-9f222d46cc1e")
 		)
 		(pad "4" smd roundrect
-			(at 0.75 -0.45)
+			(at 0.75 -0.45 180)
 			(size 0.6 0.7)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
@@ -25207,7 +25208,7 @@
 			(pintype "input")
 			(uuid "e15a9374-d73d-47c4-83a5-f093853143f0")
 		)
-		(model "/home/krishnawa/git/BEEWATCH/3D/LED/XL-0807RGBC-WS2812B.step"
+		(model "${KIPRJMOD}/KiCadoodle/LIB/SM_LED/3D/0807RGB/XL-0807RGBC-WS2812B.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26940,7 +26941,7 @@
 			(pintype "passive")
 			(uuid "33751495-175a-431e-bab7-7d6ec3bb2f51")
 		)
-		(model "/home/krishnawa/git/BEEWATCH/3D/SWITCH/Tact Switch-TK-074-4 Pin SMD.step"
+		(model "${KIPRJMOD}/KiCadoodle/LIB/SM_SWITCH/3D/TK-074/Tact Switch-TK-074-4 Pin SMD.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28044,7 +28045,7 @@
 			(pintype "passive")
 			(uuid "2884bec8-94b9-4316-8672-a7d0d8e4b139")
 		)
-		(model "/home/krishnawa/git/BEEWATCH/3D/SWITCH/Tact Switch-TK-074-4 Pin SMD.step"
+		(model "${KIPRJMOD}/KiCadoodle/LIB/SM_SWITCH/3D/TK-074/Tact Switch-TK-074-4 Pin SMD.step"
 			(offset
 				(xyz 0 0 0)
 			)
