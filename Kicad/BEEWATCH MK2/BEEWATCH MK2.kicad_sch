@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "e9c5fb53-480b-4989-8495-a3341ee99514")
 	(paper "A4")
 	(lib_symbols)
@@ -178,6 +178,10 @@
 	(sheet
 		(at 203.2 38.1)
 		(size 31.75 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -207,66 +211,66 @@
 		)
 		(pin "TFT_SDI" input
 			(at 203.2 54.61 180)
+			(uuid "b443aa6a-2543-4bc0-ae40-a3e3c5f5af1f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b443aa6a-2543-4bc0-ae40-a3e3c5f5af1f")
 		)
 		(pin "TFT_SCK" input
 			(at 203.2 52.07 180)
+			(uuid "19e454bf-19f1-44a7-8277-2bb5fcd05572")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "19e454bf-19f1-44a7-8277-2bb5fcd05572")
 		)
 		(pin "TFT_CS" input
 			(at 203.2 49.53 180)
+			(uuid "91b271fa-33ec-432d-89a0-301b6a9d6e70")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "91b271fa-33ec-432d-89a0-301b6a9d6e70")
 		)
 		(pin "TFT_D{slash}C" input
 			(at 203.2 46.99 180)
+			(uuid "5a8e90f7-5a5d-4bbb-8d78-f7362b079089")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5a8e90f7-5a5d-4bbb-8d78-f7362b079089")
 		)
 		(pin "TFT_LED_PIN" input
 			(at 203.2 57.15 180)
+			(uuid "f5364bd5-7ccb-4402-ade3-7adbfbc68cdb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f5364bd5-7ccb-4402-ade3-7adbfbc68cdb")
 		)
 		(pin "TFT_RST" input
 			(at 203.2 59.69 180)
+			(uuid "8c94d72d-3333-457a-88dd-f2935dc663b5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8c94d72d-3333-457a-88dd-f2935dc663b5")
 		)
 		(instances
-			(project "BEEWATCH MK3"
+			(project "BEEWATCH MK2"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514"
 					(page "4")
 				)
@@ -276,6 +280,10 @@
 	(sheet
 		(at 60.96 49.53)
 		(size 44.45 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -305,56 +313,56 @@
 		)
 		(pin "GPS_RXD" input
 			(at 105.41 55.88 0)
+			(uuid "d604a8cd-404e-459b-9184-b16b7ee25f86")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d604a8cd-404e-459b-9184-b16b7ee25f86")
 		)
 		(pin "GPS_TXD" output
 			(at 105.41 58.42 0)
+			(uuid "8807f10e-f5f6-4675-a6d5-85e93e314e72")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8807f10e-f5f6-4675-a6d5-85e93e314e72")
 		)
 		(pin "GPS_PPS" output
 			(at 105.41 60.96 0)
+			(uuid "29affa09-69fd-454e-8135-5abc500d0869")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "29affa09-69fd-454e-8135-5abc500d0869")
 		)
 		(pin "GPS_RST" input
 			(at 105.41 63.5 0)
+			(uuid "d8dab0d6-98ff-4131-82e4-3a757a2ec7ab")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d8dab0d6-98ff-4131-82e4-3a757a2ec7ab")
 		)
 		(pin "GPS_EN" input
 			(at 105.41 53.34 0)
+			(uuid "fada81d8-575b-47bb-ad36-3079b91d8cc3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fada81d8-575b-47bb-ad36-3079b91d8cc3")
 		)
 		(instances
-			(project "BEEWATCH MK3"
+			(project "BEEWATCH MK2"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514"
 					(page "7")
 				)
@@ -364,6 +372,10 @@
 	(sheet
 		(at 207.01 87.63)
 		(size 35.56 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -393,36 +405,36 @@
 		)
 		(pin "MPU_SDA" bidirectional
 			(at 207.01 99.06 180)
+			(uuid "6e9d9838-984a-4602-9fef-d8cf0850408d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6e9d9838-984a-4602-9fef-d8cf0850408d")
 		)
 		(pin "MPU_SCL" input
 			(at 207.01 96.52 180)
+			(uuid "f40645c4-225c-475c-81d5-ca22b420c25b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f40645c4-225c-475c-81d5-ca22b420c25b")
 		)
 		(pin "MPU_INT" output
 			(at 207.01 104.14 180)
+			(uuid "e8ee5867-7bdd-439b-b256-2f1fb82f3e50")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e8ee5867-7bdd-439b-b256-2f1fb82f3e50")
 		)
 		(instances
-			(project "BEEWATCH MK3"
+			(project "BEEWATCH MK2"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514"
 					(page "3")
 				)
@@ -432,6 +444,10 @@
 	(sheet
 		(at 124.46 27.94)
 		(size 59.69 128.27)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -461,176 +477,176 @@
 		)
 		(pin "GPS_RST" input
 			(at 124.46 63.5 180)
+			(uuid "29416cac-5fd4-4a8e-8681-ddd21222c24b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "29416cac-5fd4-4a8e-8681-ddd21222c24b")
 		)
 		(pin "SCL" output
 			(at 184.15 96.52 0)
+			(uuid "214c8acb-f106-4c94-8b9f-94a00597663b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "214c8acb-f106-4c94-8b9f-94a00597663b")
 		)
 		(pin "SDA" bidirectional
 			(at 184.15 99.06 0)
+			(uuid "57fadb00-9e72-464f-9b1f-f38926ae2e67")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "57fadb00-9e72-464f-9b1f-f38926ae2e67")
 		)
 		(pin "GPS_EN" output
 			(at 124.46 53.34 180)
+			(uuid "7d1b452e-9ef7-477d-a9c7-794a3a1950c2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7d1b452e-9ef7-477d-a9c7-794a3a1950c2")
 		)
 		(pin "GPS_PSS" input
 			(at 124.46 60.96 180)
+			(uuid "ff4f9956-5c12-475f-b8a1-f3f6aecab6dc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ff4f9956-5c12-475f-b8a1-f3f6aecab6dc")
 		)
 		(pin "LCD_RST" input
 			(at 184.15 59.69 0)
+			(uuid "9894d60e-a75f-4cdd-8d3f-a4c6334ef62e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9894d60e-a75f-4cdd-8d3f-a4c6334ef62e")
 		)
 		(pin "LCD_DC" input
 			(at 184.15 46.99 0)
+			(uuid "91deedb3-1cb8-428e-9f40-8536464c75e7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "91deedb3-1cb8-428e-9f40-8536464c75e7")
 		)
 		(pin "LCD_CS" input
 			(at 184.15 49.53 0)
+			(uuid "8c38fb24-1bef-47bf-9151-32bcb820760a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8c38fb24-1bef-47bf-9151-32bcb820760a")
 		)
 		(pin "LCD_MOSI" input
 			(at 184.15 54.61 0)
+			(uuid "8f4364e8-4d25-4fdc-9606-f9522fbc7609")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8f4364e8-4d25-4fdc-9606-f9522fbc7609")
 		)
 		(pin "LCD_SCK" input
 			(at 184.15 52.07 0)
+			(uuid "3245a52b-b3b9-4886-b1c5-9728cb6a0074")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3245a52b-b3b9-4886-b1c5-9728cb6a0074")
 		)
 		(pin "GPS_TXD" output
 			(at 124.46 55.88 180)
+			(uuid "9f781f14-1185-429a-9c93-7801e5fa3833")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9f781f14-1185-429a-9c93-7801e5fa3833")
 		)
 		(pin "GPS_RXD" input
 			(at 124.46 58.42 180)
+			(uuid "502c4dcf-5866-4ae4-af9e-6fb794cc31c6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "502c4dcf-5866-4ae4-af9e-6fb794cc31c6")
 		)
 		(pin "MPU_INT" input
 			(at 184.15 104.14 0)
+			(uuid "c657adc6-9496-4c2d-93aa-154972eac65e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c657adc6-9496-4c2d-93aa-154972eac65e")
 		)
 		(pin "LCD_LED" output
 			(at 184.15 57.15 0)
+			(uuid "81464fc8-8298-482f-b16f-5cff2d584321")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "81464fc8-8298-482f-b16f-5cff2d584321")
 		)
 		(pin "BAT_ST_EN" output
 			(at 124.46 143.51 180)
+			(uuid "070700de-be9e-40f6-8990-3668bc16c57c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "070700de-be9e-40f6-8990-3668bc16c57c")
 		)
 		(pin "BAT_VSENSE" input
 			(at 124.46 139.7 180)
+			(uuid "72c09c2f-2e81-4bb1-bc4e-2b0625408fb9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "72c09c2f-2e81-4bb1-bc4e-2b0625408fb9")
 		)
 		(pin "CHG_ST" input
 			(at 124.46 135.89 180)
+			(uuid "64e8c3ec-6708-480e-9e74-fd398a6d6ff5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "64e8c3ec-6708-480e-9e74-fd398a6d6ff5")
 		)
 		(instances
-			(project "BEEWATCH MK3"
+			(project "BEEWATCH MK2"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514"
 					(page "2")
 				)
@@ -640,6 +656,10 @@
 	(sheet
 		(at 59.69 107.95)
 		(size 49.53 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -669,36 +689,36 @@
 		)
 		(pin "BAT_SENSE_EN" input
 			(at 109.22 143.51 0)
+			(uuid "684440b0-5688-4c4b-bcd8-b18ed0763540")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "684440b0-5688-4c4b-bcd8-b18ed0763540")
 		)
 		(pin "CHG_ST" output
 			(at 109.22 135.89 0)
+			(uuid "5a348629-42b5-4896-b314-24eb753cdd0b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5a348629-42b5-4896-b314-24eb753cdd0b")
 		)
 		(pin "BAT_SENSE" output
 			(at 109.22 139.7 0)
+			(uuid "c41dfd26-6945-4c15-9212-0fafe4834578")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c41dfd26-6945-4c15-9212-0fafe4834578")
 		)
 		(instances
-			(project "BEEWATCH MK3"
+			(project "BEEWATCH MK2"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514"
 					(page "6")
 				)
@@ -710,4 +730,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
