@@ -1046,20 +1046,20 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Project_Library:DMP1045U-7"
+		(symbol "SM_PMOS:DMP1045U-7"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 0 3.81 0)
+			(property "Reference" "Q?"
+				(at -3.81 4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at -1.27 3.81 0)
+			(property "Value" "DMP1045U-7"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1067,7 +1067,7 @@
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-				(at 2.54 16.51 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1076,7 +1076,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at -1.27 3.81 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1096,43 +1096,7 @@
 			(symbol "DMP1045U-7_0_1"
 				(polyline
 					(pts
-						(xy 0.635 -3.81) (xy 0.762 -3.937) (xy 0.762 -4.699) (xy 0.889 -4.826)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.7523 -4.3068) (xy 0.1173 -4.6878) (xy 0.1173 -3.9258) (xy 0.7523 -4.3068)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -4.318) (xy 1.397 -3.937) (xy 1.397 -4.699) (xy 0.762 -4.318)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 1.905) (xy 1.524 -1.905)
+						(xy -2.286 1.905) (xy -2.286 -1.905)
 					)
 					(stroke
 						(width 0.254)
@@ -1144,7 +1108,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 0) (xy -1.27 0)
+						(xy -2.286 0) (xy -5.08 0)
 					)
 					(stroke
 						(width 0)
@@ -1156,7 +1120,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.032 2.286) (xy 2.032 1.27)
+						(xy -1.778 2.286) (xy -1.778 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1168,7 +1132,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.032 1.778) (xy 4.572 1.778) (xy 4.572 -1.778) (xy 2.032 -1.778)
+						(xy -1.778 1.778) (xy 0.762 1.778) (xy 0.762 -1.778) (xy -1.778 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -1180,7 +1144,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.032 0.508) (xy 2.032 -0.508)
+						(xy -1.778 0.508) (xy -1.778 -0.508)
 					)
 					(stroke
 						(width 0.254)
@@ -1192,7 +1156,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.032 -1.27) (xy 2.032 -2.286)
+						(xy -1.778 -1.27) (xy -1.778 -2.286)
 					)
 					(stroke
 						(width 0.254)
@@ -1203,7 +1167,7 @@
 					)
 				)
 				(circle
-					(center 2.921 0)
+					(center -0.889 0)
 					(radius 2.794)
 					(stroke
 						(width 0.254)
@@ -1215,7 +1179,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.556 0) (xy 2.54 0.381) (xy 2.54 -0.381) (xy 3.556 0)
+						(xy -0.254 0) (xy -1.27 0.381) (xy -1.27 -0.381) (xy -0.254 0)
 					)
 					(stroke
 						(width 0)
@@ -1227,19 +1191,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.7569 -4.3186) (xy 1.016 -4.318) (xy -0.6238 -4.3193) (xy -0.6238 -0.0962)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 2.54) (xy 3.81 1.778)
+						(xy 0 2.54) (xy 0 1.778)
 					)
 					(stroke
 						(width 0)
@@ -1250,7 +1202,7 @@
 					)
 				)
 				(circle
-					(center 3.81 1.778)
+					(center 0 1.778)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -1261,7 +1213,7 @@
 					)
 				)
 				(circle
-					(center 3.81 -1.778)
+					(center 0 -1.778)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -1273,7 +1225,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 -2.54) (xy 3.81 0) (xy 2.032 0)
+						(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
 					)
 					(stroke
 						(width 0)
@@ -1285,7 +1237,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.064 -0.508) (xy 4.191 -0.381) (xy 4.953 -0.381) (xy 5.08 -0.254)
+						(xy 0.254 -0.508) (xy 0.381 -0.381) (xy 1.143 -0.381) (xy 1.27 -0.254)
 					)
 					(stroke
 						(width 0)
@@ -1297,7 +1249,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.572 -0.381) (xy 4.191 0.254) (xy 4.953 0.254) (xy 4.572 -0.381)
+						(xy 0.762 -0.381) (xy 0.381 0.254) (xy 1.143 0.254) (xy 0.762 -0.381)
 					)
 					(stroke
 						(width 0)
@@ -1309,10 +1261,28 @@
 				)
 			)
 			(symbol "DMP1045U-7_1_1"
-				(pin passive line
-					(at -3.81 0 0)
+				(pin input line
+					(at -7.62 0 0)
 					(length 2.54)
 					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1328,25 +1298,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 -5.08 90)
+					(at 0 -5.08 90)
 					(length 2.54)
 					(name "S"
 						(effects
@@ -1355,7 +1307,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3339,6 +3291,77 @@
 		(uuid "fa114bdc-13ea-47aa-94a9-f205e5036dad")
 	)
 	(symbol
+		(lib_id "SM_PMOS:DMP1045U-7")
+		(at 118.11 60.96 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "011a7f52-7140-4b2a-8988-c1854f0857a8")
+		(property "Reference" "Q3"
+			(at 112.014 56.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMP1045U-7"
+			(at 110.236 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 118.11 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "71248d34-66e9-4934-9df3-4bc8a65a6886")
+		)
+		(pin "1"
+			(uuid "81f880f9-6a45-4d22-8270-4a402f2147b9")
+		)
+		(pin "2"
+			(uuid "baacf5c6-f17d-4ef0-9136-0e7d20b72b1d")
+		)
+		(instances
+			(project ""
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 198.12 68.58 0)
 		(unit 1)
@@ -5316,77 +5339,6 @@
 			(project "BEEWATCH"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
 					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Project_Library:DMP1045U-7")
-		(at 118.11 57.15 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "998c9ba7-ccc9-4328-a8ca-b498b5fb1359")
-		(property "Reference" "Q3"
-			(at 114.3 55.499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DMP1045U-7"
-			(at 119.126 64.389 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 101.6 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "963993e1-161a-4e81-b894-1de72c6bcacb")
-		)
-		(pin "2"
-			(uuid "92cd8a29-bbfd-4f27-8bd5-6d1d11344ba6")
-		)
-		(pin "3"
-			(uuid "b7a16ba5-c564-420d-871f-9046c58e71f1")
-		)
-		(instances
-			(project "BEEWATCH"
-				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
-					(reference "Q3")
 					(unit 1)
 				)
 			)

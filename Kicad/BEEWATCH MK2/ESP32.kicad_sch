@@ -112,7 +112,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_C_Receptacle_USB2.0"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -120,21 +120,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -10.16 19.05 0)
+				(at 0 22.225 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0"
-				(at 19.05 19.05 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
+				(at 0 19.685 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -155,7 +153,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -182,7 +180,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -294,7 +292,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -495,7 +493,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at -7.62 -22.86 90)
 					(length 5.08)
@@ -5166,12 +5164,6 @@
 		(uuid "a1078a75-3f3f-4076-84b6-066e565ccf1a")
 	)
 	(junction
-		(at 77.47 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9e1e0da-e4d4-4837-bfd5-add40f0a84fc")
-	)
-	(junction
 		(at 323.85 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5218,6 +5210,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df556114-ae23-4e41-aafd-a1883ec3348e")
+	)
+	(junction
+		(at 77.47 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e415fb20-33e6-4124-874f-c12bf1863464")
 	)
 	(junction
 		(at 248.92 86.36)
@@ -5847,7 +5845,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 224.79) (xy 316.23 224.79)
+			(xy 299.72 224.79) (xy 316.23 224.79)
 		)
 		(stroke
 			(width 0)
@@ -7685,6 +7683,16 @@
 		)
 		(uuid "adbcd0ec-fd49-4ede-895a-7202dfe66b9d")
 	)
+	(label "BUZZER_EN"
+		(at 299.72 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb9af367-97ed-4efa-af0b-6dd2a37eca06")
+	)
 	(label "U1TXD"
 		(at 245.11 135.89 180)
 		(effects
@@ -7794,26 +7802,6 @@
 			(justify left bottom)
 		)
 		(uuid "f781d238-641b-4ae2-b10f-517940d77587")
-	)
-	(global_label "D3"
-		(shape input)
-		(at 314.96 224.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "444249a6-b1ab-430a-a44a-027cede42249")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 314.96 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 	)
 	(hierarchical_label "GPS_RXD"
 		(shape input)
@@ -8014,123 +8002,6 @@
 		(uuid "f37e12da-2c82-4146-b586-a6f64ae8f6cd")
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0")
-		(at 77.47 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "022f0333-2b7b-4854-9fdb-a78d286f0a83")
-		(property "Reference" "J1"
-			(at 77.47 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0"
-			(at 77.47 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
-			(at 81.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 81.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A1"
-			(uuid "602dc532-d7cb-441b-a219-dd29f5e3305a")
-		)
-		(pin "A12"
-			(uuid "330c802d-f217-45e0-9d18-e91d529410ae")
-		)
-		(pin "A4"
-			(uuid "e17e1f8e-eb9c-4e61-829e-2c647708bb49")
-		)
-		(pin "A5"
-			(uuid "55f91648-a7b3-4de5-ad18-9936461b7c5d")
-		)
-		(pin "A6"
-			(uuid "9de04d6a-66df-4871-a856-2caa2f459737")
-		)
-		(pin "A7"
-			(uuid "4554e70a-9f4b-4213-a3c7-e01b16c7b4f5")
-		)
-		(pin "A8"
-			(uuid "2d1faae6-ab65-44ff-8997-368b423fd91e")
-		)
-		(pin "A9"
-			(uuid "6e14f0ad-7bfb-4446-957e-10c9239b8a27")
-		)
-		(pin "B1"
-			(uuid "38f61d95-7efa-4527-b689-061c33e4f22d")
-		)
-		(pin "B12"
-			(uuid "35189db0-6727-4c1f-87ca-cd1f743c8fbe")
-		)
-		(pin "B4"
-			(uuid "c4c06d65-9da7-4846-8b35-d696c80224ba")
-		)
-		(pin "B5"
-			(uuid "dc73231c-2dee-4818-b003-250370410781")
-		)
-		(pin "B6"
-			(uuid "b4d10bba-0db1-411e-a6c0-92ff31a5fe58")
-		)
-		(pin "B7"
-			(uuid "40d846eb-6683-4a12-bbe4-660b5c779cf5")
-		)
-		(pin "B8"
-			(uuid "ec533642-cffa-45fb-a3e0-0f6161de1c7d")
-		)
-		(pin "B9"
-			(uuid "d7dc0a72-8887-456a-820a-498694899dd8")
-		)
-		(pin "S1"
-			(uuid "23f91ce1-8af9-4544-8fb4-b882058d5664")
-		)
-		(instances
-			(project "BEEWATCH"
-				(path "/e9c5fb53-480b-4989-8495-a3341ee99514"
-					(reference "J?")
-					(unit 1)
-				)
-				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:DMG2302U")
 		(at 330.2 224.79 0)
 		(unit 1)
@@ -8231,7 +8102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SM_SWITCH:Tact Switch-TK-074-4 Pin SMD"
+		(property "Footprint" "Project:Tact Switch-TK-074-4 Pin SMD"
 			(at 134.62 233.68 0)
 			(effects
 				(font
@@ -8580,7 +8451,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SM_LED:XL-0807RGBC-WS2812B"
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 201.93 229.87 0)
 			(effects
 				(font
@@ -9208,7 +9079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SM_SWITCH:Tact Switch-TK-074-4 Pin SMD"
+		(property "Footprint" "Project:Tact Switch-TK-074-4 Pin SMD"
 			(at 100.33 232.41 0)
 			(effects
 				(font
@@ -10038,6 +9909,119 @@
 			(project "BEEWATCH MK3"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 77.47 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cad40c3-bf90-4dd7-b4bf-e9cca630f2b3")
+		(property "Reference" "J1"
+			(at 77.47 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 77.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 81.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A8"
+			(uuid "8cce09c5-3dc0-42e9-8c01-5c336b2a398a")
+		)
+		(pin "B8"
+			(uuid "7e791667-dd95-4201-9724-a37d2ce54964")
+		)
+		(pin "B6"
+			(uuid "acb9d1f7-c355-4aed-80a3-9c20ef99a739")
+		)
+		(pin "A6"
+			(uuid "686d168d-fa9c-4765-bd36-f2ae7b457270")
+		)
+		(pin "B9"
+			(uuid "a36fb073-51b3-412f-876d-111f2d2f003c")
+		)
+		(pin "B4"
+			(uuid "cd9d388a-0d06-4cfb-8110-bcd1f2d0346f")
+		)
+		(pin "A5"
+			(uuid "8dcda0fe-5da4-4b0c-a4f4-ffad5fe5228a")
+		)
+		(pin "A9"
+			(uuid "283a457d-5063-4e79-9b8f-97e4a10ed35c")
+		)
+		(pin "A4"
+			(uuid "0a2540ca-3aaa-420a-bb5b-1a1b2b52cf0c")
+		)
+		(pin "B12"
+			(uuid "1f5095a0-c4bf-4f06-b52a-eb729b1575bf")
+		)
+		(pin "B1"
+			(uuid "696d0afe-a9c3-4562-abcb-626cc08aba3c")
+		)
+		(pin "A12"
+			(uuid "2d5617dc-86a9-4107-ad42-dc43f5e3dd7b")
+		)
+		(pin "A1"
+			(uuid "9e6c4f67-5311-479a-99b5-a0503c6b423f")
+		)
+		(pin "A7"
+			(uuid "50b8b906-5153-4324-9fd2-a3a9b004a8f4")
+		)
+		(pin "B5"
+			(uuid "b897e26f-7597-45e8-a322-ccd14dbfb788")
+		)
+		(pin "B7"
+			(uuid "3a1579b9-2a8b-45d1-8404-e39eabe697fc")
+		)
+		(pin "S1"
+			(uuid "966766e5-9514-498e-acb7-4cd104ed90a0")
+		)
+		(instances
+			(project ""
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
+					(reference "J1")
 					(unit 1)
 				)
 			)
