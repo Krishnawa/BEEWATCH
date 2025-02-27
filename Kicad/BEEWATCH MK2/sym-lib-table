@@ -4,4 +4,6 @@
   (lib (name "LDO")(type "KiCad")(uri "${KIPRJMOD}/KiCadoodle/LIB/SM_LDO/LDO.kicad_sym")(options "")(descr ""))
   (lib (name "Reyas")(type "KiCad")(uri "${KIPRJMOD}/KiCadoodle/LIB/REYAS/Reyas.kicad_sym")(options "")(descr ""))
   (lib (name "ANTENNA")(type "KiCad")(uri "${KIPRJMOD}/KiCadoodle/LIB/ANTENNA/ANTENNA.kicad_sym")(options "")(descr ""))
+  (lib (name "SM_NMOS")(type "KiCad")(uri "/home/krishnawa/git/KiCadoodle/LIB/SM_NMOS/SM_NMOS.kicad_sym")(options "")(descr ""))
+  (lib (name "SM_PMOS")(type "KiCad")(uri "/home/krishnawa/git/KiCadoodle/LIB/SM_PMOS/SM_PMOS.kicad_sym")(options "")(descr ""))
 )
