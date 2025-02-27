@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.0,
-          "width": 2.0
+          "height": 0.8,
+          "width": 0.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -59,9 +59,9 @@
           "width": 0.0
         },
         {
-          "gap": 4.0,
-          "via_gap": 4.0,
-          "width": 4.0
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 0.3
         }
       ],
       "drc_exclusions": [],
@@ -517,14 +517,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "+3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "via_diameter": 0.4,
@@ -532,17 +531,25 @@
         "wire_width": 6
       },
       {
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.2,
+        "name": "90OHM",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3
+      },
+      {
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "via_diameter": 0.6,
@@ -575,6 +582,14 @@
       {
         "netclass": "+3V3",
         "pattern": "+3V3_IN"
+      },
+      {
+        "netclass": "90OHM",
+        "pattern": "D+"
+      },
+      {
+        "netclass": "90OHM",
+        "pattern": "D-"
       }
     ]
   },
@@ -583,10 +598,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Sch",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "BEEWATCH MK3.step",
+      "step": ".stl",
       "svg": "",
       "vrml": ""
     },
@@ -733,7 +748,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../../../../Desktop/",
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,

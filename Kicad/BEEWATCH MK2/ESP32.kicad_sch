@@ -5867,6 +5867,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 198.12) (xy 316.23 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed9cbcd-fa8c-4367-b63e-5bfa539caa32")
+	)
+	(wire
+		(pts
 			(xy 212.09 130.81) (xy 250.19 130.81)
 		)
 		(stroke
@@ -5895,16 +5905,6 @@
 		)
 		(uuid "40e7f311-69c1-4e95-85b3-2f8e88a5adca")
 	)
-	(wire
-		(pts
-			(xy 332.74 200.66) (xy 332.74 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4109e6e4-6ee8-4b52-ac53-870cdd696cb7")
-	)
 	(polyline
 		(pts
 			(xy 20.32 33.02) (xy 398.78 33.02)
@@ -5914,6 +5914,16 @@
 			(type dash)
 		)
 		(uuid "431b8920-8fa9-4577-a095-c8ab3c9fa778")
+	)
+	(wire
+		(pts
+			(xy 323.85 198.12) (xy 332.74 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4452b922-fabf-4573-85c6-7e63f896e010")
 	)
 	(wire
 		(pts
@@ -5994,6 +6004,16 @@
 			(type default)
 		)
 		(uuid "4aa75c90-d7f9-4f46-879a-338e2027ec1f")
+	)
+	(wire
+		(pts
+			(xy 332.74 198.12) (xy 332.74 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b80b876-c33d-42ea-9459-73dfb85d7951")
 	)
 	(wire
 		(pts
@@ -6224,6 +6244,16 @@
 			(type dash)
 		)
 		(uuid "6147108f-f6cd-4d45-96c3-84e92a0b2ae0")
+	)
+	(wire
+		(pts
+			(xy 307.34 195.58) (xy 307.34 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619da11b-be61-4e4c-b27a-58094d258396")
 	)
 	(wire
 		(pts
@@ -7524,6 +7554,16 @@
 			(type dash)
 		)
 		(uuid "ff84b942-fb0f-4a29-a9e9-67e405beee5b")
+	)
+	(label "LED1"
+		(at 228.6 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "028cb3c9-a9ce-41a9-bab5-f2647388c15c")
 	)
 	(label "IO0"
 		(at 111.76 229.87 0)
@@ -11846,6 +11886,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 320.04 198.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c942171e-23c4-4503-a2bf-8e5b74ebd1f1")
+		(property "Reference" "R53"
+			(at 320.04 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 320.04 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 320.04 199.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 320.04 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 320.04 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56addf49-b2a2-40f9-8997-217b984db731")
+		)
+		(pin "2"
+			(uuid "89a57ada-a465-4bbd-8aa3-f11c838478ec")
+		)
+		(instances
+			(project "BEEWATCH MK2"
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 323.85 231.14 180)
 		(unit 1)
@@ -12049,7 +12157,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 332.74 200.66 0)
+		(at 307.34 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12058,7 +12166,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7143526-0e96-493e-b557-8520eb380039")
 		(property "Reference" "#PWR022"
-			(at 332.74 204.47 0)
+			(at 307.34 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12067,7 +12175,7 @@
 			)
 		)
 		(property "Value" "+VBAT"
-			(at 332.74 196.85 0)
+			(at 307.34 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12075,7 +12183,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 332.74 200.66 0)
+			(at 307.34 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12084,7 +12192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 332.74 200.66 0)
+			(at 307.34 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12093,7 +12201,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 332.74 200.66 0)
+			(at 307.34 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12105,7 +12213,7 @@
 			(uuid "f3ecf1ad-2510-4143-be79-058185fbb0fd")
 		)
 		(instances
-			(project "BEEWATCH MK3"
+			(project "BEEWATCH MK2"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
 					(reference "#PWR022")
 					(unit 1)
@@ -12572,6 +12680,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "TODO" "${ERC_ERROR Footprint is sus}"
+			(at 73.66 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"

@@ -7085,15 +7085,15 @@
 		(dnp no)
 		(uuid "a618d0e2-2d26-456b-a28f-22cf2491cceb")
 		(property "Reference" "R34"
-			(at 231.14 57.15 90)
+			(at 231.14 56.642 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "K10K"
-			(at 231.14 53.34 90)
+		(property "Value" "10K"
+			(at 231.394 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
