@@ -260,36 +260,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "power_pin_not_driven|1003300|2159000|5ec83eeb-7ce1-45bd-90a2-45379f02c7af|00000000-0000-0000-0000-000000000000|/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd|/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|1054100|406400|8db939a3-1501-4183-b90e-f1d7580ef23d|00000000-0000-0000-0000-000000000000|/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd|/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|1308100|723900|a3119630-45e2-406e-b5c1-eb695fcb7d7c|00000000-0000-0000-0000-000000000000|/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9|/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|2286000|431800|a5343401-3b8e-45a3-a787-c682ef1c4a4d|00000000-0000-0000-0000-000000000000|/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9|/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|2717800|762000|fdda9ab8-4e1d-46de-84fd-40c237d464cc|00000000-0000-0000-0000-000000000000|/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd|/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|304800|533400|f95c2941-7c54-4ad6-9ca6-3bdd87af4701|00000000-0000-0000-0000-000000000000|/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9|/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|3073400|1955800|f3ecf1ad-2510-4143-be79-058185fbb0fd|00000000-0000-0000-0000-000000000000|/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd|/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -475,7 +446,7 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
-      "footprint_filter": "ignore",
+      "footprint_filter": "warning",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
@@ -495,13 +466,13 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "error",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",

@@ -1967,107 +1967,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:VBUS"
 			(power)
 			(pin_numbers
@@ -2270,12 +2169,6 @@
 		(uuid "58165a26-9195-408e-b4a2-3c776b2550bb")
 	)
 	(junction
-		(at 226.06 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6159819a-6d2b-4439-89e3-5b256bb34fcc")
-	)
-	(junction
 		(at 237.49 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2429,7 +2322,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 114.3) (xy 240.03 121.92)
+			(xy 240.03 114.3) (xy 240.03 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2526,16 +2419,6 @@
 			(type dash)
 		)
 		(uuid "30d01756-c55a-4d96-95a3-a2aab71da040")
-	)
-	(wire
-		(pts
-			(xy 226.06 121.92) (xy 209.55 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dfa929e-3f1e-444b-b749-5c0eb2551463")
 	)
 	(wire
 		(pts
@@ -2659,7 +2542,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 121.92) (xy 209.55 114.3)
+			(xy 209.55 114.3) (xy 209.55 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2739,6 +2622,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 114.3) (xy 226.06 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69f65218-0d0d-4517-807b-b54ddc887bc9")
+	)
+	(wire
+		(pts
 			(xy 193.04 106.68) (xy 198.12 106.68)
 		)
 		(stroke
@@ -2766,16 +2659,6 @@
 			(type default)
 		)
 		(uuid "72236701-74d0-4ac3-a4fe-e15082a876b8")
-	)
-	(wire
-		(pts
-			(xy 226.06 121.92) (xy 226.06 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73d5ffa9-643b-4ca1-b822-50161c908e42")
 	)
 	(wire
 		(pts
@@ -3039,16 +2922,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 53.34) (xy 209.55 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d05c651d-9059-4571-90c2-6629f8c6797f")
-	)
-	(wire
-		(pts
 			(xy 78.74 179.07) (xy 88.9 179.07)
 		)
 		(stroke
@@ -3119,16 +2992,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 114.3) (xy 226.06 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3ff063a-a6de-4e35-82d3-d39989ced06e")
-	)
-	(wire
-		(pts
 			(xy 205.74 57.15) (xy 209.55 57.15)
 		)
 		(stroke
@@ -3136,16 +2999,6 @@
 			(type default)
 		)
 		(uuid "e846a64c-6419-4bf4-8989-200a5eaf25f3")
-	)
-	(wire
-		(pts
-			(xy 240.03 121.92) (xy 226.06 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebd67353-ca45-4524-9663-8d4eeef6cff0")
 	)
 	(wire
 		(pts
@@ -3228,7 +3081,7 @@
 		(uuid "ffa32d98-555d-41fa-8970-bd24db60d69f")
 	)
 	(label "+3V3_IN"
-		(at 210.82 106.68 0)
+		(at 207.01 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3708,6 +3561,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 209.55 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48148e9e-fc43-48d4-ae4c-1d37c066b84c")
+		(property "Reference" "#PWR080"
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8eb4ec4e-bead-4ed0-8668-a1d8edd0255a")
+		)
+		(instances
+			(project "BEEWATCH MK2"
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 237.49 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4053,7 +3972,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 226.06 124.46 0)
+		(at 226.06 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4062,7 +3981,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e67e05d-7a7c-4bfa-9def-5d7bac0a368a")
 		(property "Reference" "#PWR076"
-			(at 226.06 130.81 0)
+			(at 226.06 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4071,7 +3990,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 129.54 0)
+			(at 226.06 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4079,7 +3998,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 124.46 0)
+			(at 226.06 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4088,7 +4007,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 124.46 0)
+			(at 226.06 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4097,7 +4016,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 124.46 0)
+			(at 226.06 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5142,72 +5061,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 209.55 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95863ae3-236d-4c98-b9e2-3c54bfea0c9c")
-		(property "Reference" "#FLG03"
-			(at 209.55 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VBAT_IN"
-			(at 209.55 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 209.55 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8040344f-0d5b-4da4-a23f-fc76e795c07d")
-		)
-		(instances
-			(project "BEEWATCH MK2"
-				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 49.53 72.39 0)
 		(unit 1)
@@ -5970,17 +5823,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 209.55 106.68 0)
+		(lib_id "power:GND")
+		(at 240.03 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ed2e92d0-3667-4605-9f5a-fd76b12fa703")
-		(property "Reference" "#FLG02"
-			(at 209.55 104.775 0)
+		(uuid "edfe2112-62e9-4db4-be4c-bc959d30675c")
+		(property "Reference" "#PWR081"
+			(at 240.03 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5988,8 +5841,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_IN"
-			(at 209.55 101.6 0)
+		(property "Value" "GND"
+			(at 240.03 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5997,7 +5850,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 106.68 0)
+			(at 240.03 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6005,8 +5858,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 209.55 106.68 0)
+		(property "Datasheet" ""
+			(at 240.03 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6014,8 +5867,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 209.55 106.68 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6024,12 +5877,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "031acb81-ddb2-429d-a5e9-4ac2fb143c87")
+			(uuid "d3d99ef9-fd28-42bf-80f0-d2e5df14bc77")
 		)
 		(instances
-			(project ""
+			(project "BEEWATCH MK2"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
-					(reference "#FLG02")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)

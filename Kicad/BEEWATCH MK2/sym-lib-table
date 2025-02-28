@@ -7,4 +7,5 @@
   (lib (name "SM_NMOS")(type "KiCad")(uri "${KIPRJMOD}/KiCadoodle/LIB/SM_NMOS/SM_NMOS.kicad_sym")(options "")(descr ""))
   (lib (name "SM_PMOS")(type "KiCad")(uri "${KIPRJMOD}/KiCadoodle/LIB/SM_PMOS/SM_PMOS.kicad_sym")(options "")(descr ""))
   (lib (name "SM_BUCK")(type "KiCad")(uri "${KIPRJMOD}/KiCadoodle/LIB/SM_BUCK/SM_BUCK.kicad_sym")(options "")(descr ""))
+  (lib (name "SM_LED")(type "KiCad")(uri "${KIPRJMOD}/KiCadoodle/LIB/SM_LED/SM_LED.kicad_sym")(options "")(descr ""))
 )

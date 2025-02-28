@@ -2481,261 +2481,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:WS2812B"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 5.08 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Value" "WS2812B"
-				(at 1.27 -5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-				(at 2.54 -9.525 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "RGB LED with integrated controller"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "RGB LED NeoPixel addressable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "WS2812B_0_0"
-				(text "RGB"
-					(at 2.286 -4.191 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "WS2812B_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.556) (xy 1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -3.556) (xy 2.667 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "WS2812B_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MCU_Espressif:ESP32-S3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3831,95 +3576,6 @@
 					(at 22.86 -30.48 180)
 					(length 2.54)
 					(name "LNA_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OLED_WATCH-rescue:GND-power"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "power_GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND-power_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND-power_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5645,6 +5301,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 229.87) (xy 151.13 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2216ac61-fefa-4349-ab8b-72885bc074a4")
+	)
+	(wire
+		(pts
 			(xy 278.13 69.85) (xy 280.67 69.85)
 		)
 		(stroke
@@ -5722,16 +5388,6 @@
 			(type default)
 		)
 		(uuid "2d3e4465-f478-4032-a7e0-521931687dd2")
-	)
-	(wire
-		(pts
-			(xy 116.84 229.87) (xy 100.33 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f400f04-a3ee-4af9-a520-1fc86109f56c")
 	)
 	(polyline
 		(pts
@@ -6385,16 +6041,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 143.51) (xy 228.6 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70723334-845e-4cee-ac09-cd5d6ff28830")
-	)
-	(wire
-		(pts
 			(xy 125.73 129.54) (xy 125.73 139.7)
 		)
 		(stroke
@@ -6795,6 +6441,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 229.87) (xy 116.84 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7cd65ee-7cb5-49db-a825-1f2e38b531c6")
+	)
+	(wire
+		(pts
 			(xy 218.44 222.25) (xy 232.41 222.25)
 		)
 		(stroke
@@ -6832,16 +6488,6 @@
 			(type default)
 		)
 		(uuid "aaf4c140-729d-43e7-bacd-39b7c6ef2b9d")
-	)
-	(wire
-		(pts
-			(xy 151.13 229.87) (xy 134.62 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac8ea1df-1194-4122-8a51-b36ea71951fb")
 	)
 	(wire
 		(pts
@@ -6932,16 +6578,6 @@
 			(type default)
 		)
 		(uuid "bb01188b-b9a4-4d64-8bd8-493890e838e0")
-	)
-	(wire
-		(pts
-			(xy 134.62 247.65) (xy 134.62 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb2cdad7-48e7-4ded-9623-86b4408e6afe")
 	)
 	(wire
 		(pts
@@ -7092,6 +6728,16 @@
 			(type default)
 		)
 		(uuid "c76eb6aa-20d3-4a8d-80f6-4b39717edbd5")
+	)
+	(wire
+		(pts
+			(xy 134.62 247.65) (xy 134.62 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c97933f2-1b7d-419b-810c-43ee64f7eff1")
 	)
 	(wire
 		(pts
@@ -7535,6 +7181,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 143.51) (xy 228.6 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac91eb4-f399-4efc-a6d5-9b5da51aae43")
+	)
+	(wire
+		(pts
 			(xy 92.71 66.04) (xy 95.25 66.04)
 		)
 		(stroke
@@ -7554,22 +7210,22 @@
 		(uuid "ff84b942-fb0f-4a29-a9e9-67e405beee5b")
 	)
 	(label "LED1"
-		(at 228.6 222.25 0)
+		(at 232.41 222.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "028cb3c9-a9ce-41a9-bab5-f2647388c15c")
 	)
 	(label "IO0"
-		(at 111.76 229.87 0)
+		(at 116.84 229.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "2030f7cd-4a9d-4f05-b240-88e08b8967f2")
 	)
@@ -7604,12 +7260,12 @@
 		(uuid "57ab2f90-7683-42d3-9ea1-e17bba5f17b7")
 	)
 	(label "IO1"
-		(at 146.05 229.87 0)
+		(at 151.13 229.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6dd0cb82-0773-419e-b2f9-82dce4092e0e")
 	)
@@ -7664,7 +7320,7 @@
 		(uuid "a46de234-dbd3-42dc-8c43-eee0b95b2ed2")
 	)
 	(label "D-"
-		(at 218.44 140.97 0)
+		(at 212.09 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7693,16 +7349,6 @@
 		)
 		(uuid "cb9af367-97ed-4efa-af0b-6dd2a37eca06")
 	)
-	(label "U1TXD"
-		(at 245.11 135.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cbc0f85a-1b89-4158-912a-808b867dad77")
-	)
 	(label "XTAL_P"
 		(at 90.17 139.7 180)
 		(effects
@@ -7714,27 +7360,27 @@
 		(uuid "d1f057a2-9201-4a86-b388-6c7d0716cdd2")
 	)
 	(label "D+"
-		(at 99.06 67.31 0)
+		(at 102.87 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d35b62b6-80ae-4caa-91c8-52e15fbf66d9")
 	)
 	(label "D-"
-		(at 99.06 62.23 0)
+		(at 102.87 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d4223481-fa53-4779-bf92-657eefb125ef")
 	)
 	(label "D+"
-		(at 218.44 143.51 0)
+		(at 212.09 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7742,16 +7388,6 @@
 			(justify left bottom)
 		)
 		(uuid "d4d148dc-64c3-4ca7-8097-f436aa93c948")
-	)
-	(label "U1RXD"
-		(at 238.76 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e5f78690-248e-4717-bf1e-d63b9c416097")
 	)
 	(label "XTAL_32K_P"
 		(at 101.6 139.7 0)
@@ -8102,7 +7738,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project:Tact Switch-TK-074-4 Pin SMD"
+		(property "Footprint" "SM_SWITCH:Tact Switch-TK-074-4 Pin SMD"
 			(at 134.62 233.68 0)
 			(effects
 				(font
@@ -8420,82 +8056,6 @@
 			(project "BEEWATCH MK3"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 203.2 222.25 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1fc69672-2f6f-45f5-8ef4-73069f738582")
-		(property "Reference" "D1"
-			(at 209.296 212.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 209.296 215.392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 201.93 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 200.66 231.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 203.2 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "3120636d-1989-420e-991c-602ce218cce0")
-		)
-		(pin "1"
-			(uuid "b03699ad-6082-47e2-b9b1-a93cd0ba8379")
-		)
-		(pin "2"
-			(uuid "dbbdf6f7-9d0d-443d-9eb4-0e9e25a78411")
-		)
-		(pin "3"
-			(uuid "e9346f65-de9a-4d92-acd1-48fe40a83494")
-		)
-		(instances
-			(project ""
-				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -9079,7 +8639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project:Tact Switch-TK-074-4 Pin SMD"
+		(property "Footprint" "SM_SWITCH:Tact Switch-TK-074-4 Pin SMD"
 			(at 100.33 232.41 0)
 			(effects
 				(font
@@ -9940,7 +9500,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11"
 			(at 81.28 63.5 0)
 			(effects
 				(font
@@ -11048,6 +10608,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 332.74 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f7d20e8-6e43-48cc-9e77-a8eafff70831")
+		(property "Reference" "#PWR023"
+			(at 332.74 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 332.74 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 332.74 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 332.74 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29e87ced-a476-4e48-9923-330a52ca87f9")
+		)
+		(instances
+			(project ""
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDC")
 		(at 270.51 44.45 0)
 		(unit 1)
@@ -11596,7 +11222,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 247.65 0)
+		(at 134.62 250.19 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11606,7 +11232,7 @@
 		(fields_autoplaced yes)
 		(uuid "c246a278-bbe5-4930-a545-b452173902a1")
 		(property "Reference" "#PWR077"
-			(at 134.62 254 0)
+			(at 134.62 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11615,7 +11241,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 252.73 0)
+			(at 134.62 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11623,7 +11249,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 247.65 0)
+			(at 134.62 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11632,7 +11258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 247.65 0)
+			(at 134.62 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11641,7 +11267,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 247.65 0)
+			(at 134.62 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12200,71 +11826,6 @@
 			(project "BEEWATCH MK2"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OLED_WATCH-rescue:GND-power")
-		(at 332.74 236.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7bea1e6-7fe4-49f9-91f2-016cc7c7b212")
-		(property "Reference" "#PWR023"
-			(at 332.74 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 332.867 240.6142 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 332.74 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 332.74 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 332.74 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "128d12cc-023e-4a80-b34d-ed76f43ffdb2")
-		)
-		(instances
-			(project "BEEWATCH MK3"
-				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
