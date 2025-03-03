@@ -10,4 +10,5 @@
   (lib (name "BATTERY")(type "KiCad")(uri "${KIPRJMOD}/KiCadoodle/LIB/BATTERY/BATTERY.pretty")(options "")(descr ""))
   (lib (name "ART")(type "KiCad")(uri "${KIPRJMOD}/KiCadoodle/LIB/ART")(options "")(descr ""))
   (lib (name "ANTENNA")(type "KiCad")(uri "${KIPRJMOD}/KiCadoodle/LIB/ANTENNA/ANTENNA.pretty")(options "")(descr ""))
+  (lib (name "SM_CRYSTAL")(type "KiCad")(uri "/home/krishnawa/git/KiCadoodle/LIB/SM_CRYSTAL/SM_CRYSTAL.pretty")(options "")(descr ""))
 )
