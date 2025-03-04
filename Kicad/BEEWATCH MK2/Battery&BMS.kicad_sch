@@ -3110,6 +3110,16 @@
 		)
 		(uuid "4e6fbf8a-ae03-49a8-8e00-1caa2be14091")
 	)
+	(label "+VBAT_IN"
+		(at 88.9 138.43 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64f36256-6546-4d67-94d0-d2ee908e088b")
+	)
 	(hierarchical_label "BAT_SENSE"
 		(shape output)
 		(at 111.76 149.86 0)
@@ -4989,72 +4999,6 @@
 			(project "BEEWATCH MK3"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 88.9 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fcf2fd6-81fa-42f6-bd62-bf3c0261c28c")
-		(property "Reference" "#PWR029"
-			(at 88.9 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VBAT"
-			(at 88.9 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 88.9 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00d41780-d471-409f-b575-77620781caf2")
-		)
-		(instances
-			(project "BEEWATCH MK3"
-				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/d9595010-f994-473f-a0a5-39e7f06951fe"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
