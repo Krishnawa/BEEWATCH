@@ -2793,6 +2793,12 @@
 		(uuid "e5180e53-d871-4448-86e9-dbe9ecce2c2f")
 	)
 	(junction
+		(at 88.9 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00f33c66-7944-423d-8835-f55abd192c87")
+	)
+	(junction
 		(at 208.28 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2821,12 +2827,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39c0ef48-1508-43cf-a88a-dcdeecdda9f8")
-	)
-	(junction
-		(at 82.55 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "433dc585-0d16-42fd-973e-6e73ca706098")
 	)
 	(junction
 		(at 88.9 82.55)
@@ -3518,7 +3518,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 119.38) (xy 82.55 119.38)
+			(xy 72.39 119.38) (xy 88.9 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4168,16 +4168,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 119.38) (xy 88.9 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2f2f72d-17dc-42f1-9142-ac5228aa838f")
-	)
-	(wire
-		(pts
 			(xy 88.9 82.55) (xy 88.9 86.36)
 		)
 		(stroke
@@ -4336,6 +4326,36 @@
 		)
 		(uuid "415aa546-befd-4a9b-8bfa-d86af05ee14a")
 	)
+	(label "RUN"
+		(at 85.09 77.47 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94d48b47-5a53-4cfc-9e65-07d9703288e0")
+	)
+	(label "FB"
+		(at 92.71 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d818437-a357-4ff7-8ad8-fbec0343903d")
+	)
+	(label "SW"
+		(at 52.07 106.68 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4990726-f7a9-4347-a183-e88747d46b6e")
+	)
 	(label "GNSS_+1.8V"
 		(at 163.83 104.14 270)
 		(effects
@@ -4345,6 +4365,16 @@
 			(justify right bottom)
 		)
 		(uuid "aecb7fcb-94a4-48a8-9338-69e2895fcc1d")
+	)
+	(label "+0.92V"
+		(at 77.47 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba709c3f-3404-41c4-84ef-3ac8b691a3b8")
 	)
 	(label "TXD"
 		(at 182.88 72.39 0)
@@ -4443,7 +4473,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 82.55 119.38 0)
+		(at 88.9 119.38 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4452,7 +4482,7 @@
 		(fields_autoplaced yes)
 		(uuid "02115f28-274e-4ec7-9ccf-2e66e701bf9a")
 		(property "Reference" "#FLG01"
-			(at 82.55 117.475 0)
+			(at 90.805 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4461,15 +4491,16 @@
 			)
 		)
 		(property "Value" "+0.92V"
-			(at 82.55 114.3 0)
+			(at 92.71 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 119.38 0)
+			(at 88.9 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4478,7 +4509,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 119.38 0)
+			(at 88.9 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4487,7 +4518,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 82.55 119.38 0)
+			(at 88.9 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
