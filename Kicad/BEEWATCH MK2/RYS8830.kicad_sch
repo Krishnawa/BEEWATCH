@@ -5574,72 +5574,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 228.6 100.33 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3f431b81-5e0e-445d-881d-a2e69b0003df")
-		(property "Reference" "#PWR068"
-			(at 228.6 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 228.6 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 228.6 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cfacc863-66fa-478f-b1a4-7d7bd256dff8")
-		)
-		(instances
-			(project "BEEWATCH MK3"
-				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 82.55 105.41 0)
 		(unit 1)
@@ -6472,6 +6406,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 229.87 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84dde3f8-7d27-48c6-999a-bb08058baf4f")
+		(property "Reference" "#PWR087"
+			(at 229.87 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 229.87 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 229.87 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22ac2550-13b7-4221-861d-ea3842664661")
+		)
+		(instances
+			(project "BEEWATCH MK2"
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 30.48 85.09 0)
 		(unit 1)
@@ -6672,72 +6671,6 @@
 			(project "BEEWATCH MK3"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
 					(reference "R50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 229.87 152.4 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "901a5af7-0bc2-428e-a3e5-a53b9ead6872")
-		(property "Reference" "#PWR069"
-			(at 229.87 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 229.87 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 229.87 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16b264f9-a6e3-4f9c-a117-1a122068a687")
-		)
-		(instances
-			(project "BEEWATCH MK3"
-				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
-					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -7224,6 +7157,71 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 228.6 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa49242c-d5e9-4f5f-bc03-3f822026f586")
+		(property "Reference" "#PWR086"
+			(at 228.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 228.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 228.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9a20d9b-48c0-4e7b-9ba0-e6dfaaaa0f82")
+		)
+		(instances
+			(project "BEEWATCH MK2"
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 228.6 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7240,7 +7238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3.3V"
 			(at 228.6 38.1 0)
 			(effects
 				(font
@@ -7348,72 +7346,6 @@
 			(project "BEEWATCH MK3"
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
 					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 237.49 106.68 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b4394ace-404e-430b-bdc4-0290f35cd58c")
-		(property "Reference" "#PWR070"
-			(at 237.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 237.49 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 237.49 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9bd1d58e-2f27-45e9-a92c-4589d869bbc0")
-		)
-		(instances
-			(project "BEEWATCH MK3"
-				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
-					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -8024,6 +7956,71 @@
 			(project ""
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 237.49 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc576cc9-024c-4346-af75-6e4548312262")
+		(property "Reference" "#PWR085"
+			(at 237.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 237.49 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 237.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8400145-bdb0-4783-b523-bb6cb05511ad")
+		)
+		(instances
+			(project "BEEWATCH MK2"
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/33dec73c-f7ec-4dd7-9d85-ef473e07baa9"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
