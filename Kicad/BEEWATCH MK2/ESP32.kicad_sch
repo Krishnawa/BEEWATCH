@@ -6452,6 +6452,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 102.87) (xy 229.87 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "794b0d7d-a3b5-4c52-bb51-95676c7b30ac")
+	)
+	(wire
+		(pts
 			(xy 69.85 86.36) (xy 77.47 86.36)
 		)
 		(stroke
@@ -6932,16 +6942,6 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 125.73) (xy 316.23 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc6061bf-a81f-424b-bc9f-7f373a882d9a")
-	)
-	(wire
-		(pts
 			(xy 330.2 158.75) (xy 330.2 162.56)
 		)
 		(stroke
@@ -7079,16 +7079,6 @@
 			(type default)
 		)
 		(uuid "c9916b9c-de67-4763-8b17-85053cd7a3f1")
-	)
-	(wire
-		(pts
-			(xy 212.09 102.87) (xy 250.19 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb380ff5-ffc7-41f1-80c8-d9dbff5d5ae5")
 	)
 	(wire
 		(pts
@@ -7580,6 +7570,16 @@
 		)
 		(uuid "57ab2f90-7683-42d3-9ea1-e17bba5f17b7")
 	)
+	(label "BUZZER_EN"
+		(at 229.87 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "66605fff-bee4-4ed7-970d-e7f07e82f552")
+	)
 	(label "IO1"
 		(at 151.13 229.87 180)
 		(effects
@@ -7750,16 +7750,6 @@
 		)
 		(uuid "f74b1cfb-8f76-48bb-abb5-cfcca8f2cb51")
 	)
-	(label "BUZZER_EN"
-		(at 316.23 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f781d238-641b-4ae2-b10f-517940d77587")
-	)
 	(hierarchical_label "GPS_RXD"
 		(shape input)
 		(at 212.09 138.43 180)
@@ -7803,17 +7793,6 @@
 			(justify right)
 		)
 		(uuid "0574e00a-2594-4b0e-9bb7-e7fc744f8dae")
-	)
-	(hierarchical_label "CHG_ST"
-		(shape input)
-		(at 212.09 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1b357a23-c68d-42c9-8918-fdc0a618153a")
 	)
 	(hierarchical_label "SCL"
 		(shape output)
