@@ -9,6 +9,5 @@
   (lib (name "SM_BUCK")(type "KiCad")(uri "${KIPRJMOD}/KiCadoodle/LIB/SM_BUCK/SM_BUCK.kicad_sym")(options "")(descr ""))
   (lib (name "SM_LED")(type "KiCad")(uri "${KIPRJMOD}/KiCadoodle/LIB/SM_LED/SM_LED.kicad_sym")(options "")(descr ""))
   (lib (name "SM_CRYSTAL")(type "KiCad")(uri "${KIPRJMOD}/KiCadoodle/LIB/SM_CRYSTAL/SM_CRYSTAL.kicad_sym")(options "")(descr ""))
-  (lib (name "Project_Library")(type "KiCad")(uri "/home/krishnawa/git/archive/Lib/LIB/Project_Library.kicad_sym")(options "")(descr ""))
-  (lib (name "Display")(type "KiCad")(uri "/home/krishnawa/git/KiCadoodle/LIB/DISPLAY/Display.kicad_sym")(options "")(descr ""))
+  (lib (name "Display")(type "KiCad")(uri "${KIPRJMOD}/KiCadoodle/LIB/DISPLAY/Display.kicad_sym")(options "")(descr ""))
 )

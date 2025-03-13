@@ -3569,236 +3569,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SM_LED:WS2812B-0807"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 3.048 7.112 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "WS2812B-0807"
-				(at 17.018 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SM_LED:XL-0807RGBC-WS2812B"
-				(at 31.496 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "WS2812B-0807_0_0"
-				(text "RGB"
-					(at 9.906 -4.191 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "WS2812B-0807_0_1"
-				(rectangle
-					(start 2.54 5.08)
-					(end 12.7 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -2.54) (xy 9.398 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -3.556) (xy 9.398 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.906 -1.524) (xy 8.89 -2.54) (xy 8.89 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.906 -2.54) (xy 8.89 -3.556) (xy 8.89 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 11.303 -1.016) (xy 11.303 -3.556) (xy 11.303 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.319 -1.524) (xy 10.287 -1.524) (xy 11.303 -3.556) (xy 12.319 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.319 -3.556) (xy 10.287 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "WS2812B-0807_1_1"
-				(pin input line
-					(at 0 0 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 -7.62 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SWITCH:Tact_Switch-TK-074-4"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5081,12 +4851,6 @@
 		(uuid "703fcf55-24f2-41f4-a851-0efc3054a520")
 	)
 	(junction
-		(at 218.44 222.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70e75c4b-e21c-4868-8224-57cbb4adabb3")
-	)
-	(junction
 		(at 80.01 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5267,10 +5031,6 @@
 	(no_connect
 		(at 275.59 90.17)
 		(uuid "b5fceb96-c8cf-4060-aa48-c2ca6482fb66")
-	)
-	(no_connect
-		(at 195.58 222.25)
-		(uuid "c57943a9-29db-415a-9187-32b8664707c7")
 	)
 	(no_connect
 		(at 306.07 130.81)
@@ -6042,16 +5802,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 212.09) (xy 203.2 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "515f5f27-ce68-4852-8982-47d3c038d03a")
-	)
-	(wire
-		(pts
 			(xy 313.69 137.16) (xy 313.69 140.97)
 		)
 		(stroke
@@ -6142,16 +5892,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 212.09) (xy 218.44 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "591ef8ce-7d65-4311-a658-9a59894bdb8e")
-	)
-	(wire
-		(pts
 			(xy 327.66 205.74) (xy 332.74 205.74)
 		)
 		(stroke
@@ -6239,16 +5979,6 @@
 			(type default)
 		)
 		(uuid "619da11b-be61-4e4c-b27a-58094d258396")
-	)
-	(wire
-		(pts
-			(xy 218.44 222.25) (xy 218.44 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61db53bb-1e9d-4932-8600-de9475907a1d")
 	)
 	(wire
 		(pts
@@ -6662,16 +6392,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 229.87) (xy 203.2 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93e86a4b-1945-4acd-854c-c225a47567a4")
-	)
-	(wire
-		(pts
 			(xy 95.25 68.58) (xy 92.71 68.58)
 		)
 		(stroke
@@ -6789,16 +6509,6 @@
 			(type default)
 		)
 		(uuid "a7cd65ee-7cb5-49db-a825-1f2e38b531c6")
-	)
-	(wire
-		(pts
-			(xy 218.44 222.25) (xy 232.41 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a89fe296-c020-4094-a58a-e08e893a8e35")
 	)
 	(wire
 		(pts
@@ -7009,16 +6719,6 @@
 			(type default)
 		)
 		(uuid "c11c264d-8f85-4bd5-8a4f-307e923359a4")
-	)
-	(wire
-		(pts
-			(xy 210.82 222.25) (xy 218.44 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2fcbc21-90d8-4e62-836e-5d94a279fcef")
 	)
 	(wire
 		(pts
@@ -7520,16 +7220,6 @@
 		)
 		(uuid "ff84b942-fb0f-4a29-a9e9-67e405beee5b")
 	)
-	(label "LED1"
-		(at 232.41 222.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "028cb3c9-a9ce-41a9-bab5-f2647388c15c")
-	)
 	(label "IO0"
 		(at 116.84 229.87 180)
 		(effects
@@ -7740,16 +7430,6 @@
 		)
 		(uuid "f614fb61-c84d-40a7-82f6-1e414ff6b691")
 	)
-	(label "LED1"
-		(at 307.34 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f74b1cfb-8f76-48bb-abb5-cfcca8f2cb51")
-	)
 	(hierarchical_label "GPS_RXD"
 		(shape input)
 		(at 212.09 138.43 180)
@@ -7793,6 +7473,17 @@
 			(justify right)
 		)
 		(uuid "0574e00a-2594-4b0e-9bb7-e7fc744f8dae")
+	)
+	(hierarchical_label "LED"
+		(shape output)
+		(at 307.34 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b9458d5-06a4-4ac1-83ca-e6c0c2e5186d")
 	)
 	(hierarchical_label "SCL"
 		(shape output)
@@ -8361,72 +8052,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 218.44 212.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b420ae3-10eb-4b5d-a503-4fcc638ba2e8")
-		(property "Reference" "#PWR074"
-			(at 218.44 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 218.44 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 218.44 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4253ce8c-f31e-48e5-94b8-f97c9949e084")
-		)
-		(instances
-			(project "BEEWATCH MK2"
-				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 107.95 54.61 90)
 		(unit 1)
@@ -8701,72 +8326,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 203.2 212.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33be7f25-6bf3-4dc8-927b-78aab68cdc2d")
-		(property "Reference" "#PWR066"
-			(at 203.2 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 203.2 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 203.2 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f81642b5-a703-44f5-85ea-bf2b7e52ee34")
-		)
-		(instances
-			(project "BEEWATCH MK2"
-				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Antenna_Chip")
 		(at 345.44 156.21 0)
 		(unit 1)
@@ -8831,73 +8390,6 @@
 			(project ""
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
 					(reference "AE1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 203.2 232.41 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "389d8e1e-1387-45bc-8ee2-6ac27b9041a7")
-		(property "Reference" "#PWR012"
-			(at 203.2 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 203.2 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c74c4434-7f30-48e0-a1e6-4577a45ffc17")
-		)
-		(instances
-			(project "BEEWATCH MK3"
-				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10291,74 +9783,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 218.44 215.9 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6cb12725-a5b5-41c3-82c5-5d825cc8e8fd")
-		(property "Reference" "R6"
-			(at 221.488 215.138 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 221.742 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 218.44 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 218.44 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 218.44 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43755fe1-43cc-401a-bc69-71dc8043fe7f")
-		)
-		(pin "2"
-			(uuid "27ec25a2-4d65-4dbb-af12-e5ab7dcdb354")
-		)
-		(instances
-			(project "BEEWATCH MK3"
-				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
 		(at 318.77 224.79 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11237,79 +10661,6 @@
 			(project ""
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SM_LED:WS2812B-0807")
-		(at 195.58 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "97743a4a-f89c-4837-b9d7-4798b7e66a4f")
-		(property "Reference" "D1"
-			(at 198.374 212.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B-0807"
-			(at 193.294 214.884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SM_LED:XL-0807RGBC-WS2812B"
-			(at 227.076 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6ed89961-63e2-412f-bd4d-77c3556e6762")
-		)
-		(pin "1"
-			(uuid "1bb7e085-8557-4ab5-94da-c994c1fa89c6")
-		)
-		(pin "4"
-			(uuid "42c0f552-b4b1-4485-bfce-eb19678b40f1")
-		)
-		(pin "3"
-			(uuid "9d482f8b-f1cf-4fb3-9c7f-9e8f90b72355")
-		)
-		(instances
-			(project ""
-				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
-					(reference "D1")
 					(unit 1)
 				)
 			)
