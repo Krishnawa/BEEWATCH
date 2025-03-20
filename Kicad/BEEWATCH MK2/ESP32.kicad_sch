@@ -4734,7 +4734,7 @@
 		)
 		(uuid "59bd44c4-354b-42ee-9770-43827157c56e")
 	)
-	(text "why this?\n"
+	(text "RESET\n"
 		(exclude_from_sim no)
 		(at 324.866 139.954 0)
 		(effects
