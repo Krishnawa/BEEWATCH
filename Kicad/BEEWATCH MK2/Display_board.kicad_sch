@@ -1438,7 +1438,7 @@
 		(uuid "fa1b64be-3ad1-4093-aa09-121f037bfb8e")
 	)
 	(label "_GND"
-		(at 177.8 87.63 180)
+		(at 177.8 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1448,7 +1448,7 @@
 		(uuid "0fcb3530-5a5b-48c2-adb0-76ea1d9a57af")
 	)
 	(label "_GND"
-		(at 177.8 85.09 180)
+		(at 177.8 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1488,7 +1488,7 @@
 		(uuid "42b56757-7a42-472c-b7c0-703534c219b6")
 	)
 	(label "RST"
-		(at 177.8 77.47 180)
+		(at 177.8 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1508,7 +1508,7 @@
 		(uuid "5cdb70ea-0679-47a4-a589-d2933fb01a5b")
 	)
 	(label "_LED"
-		(at 177.8 82.55 180)
+		(at 177.8 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1518,7 +1518,7 @@
 		(uuid "744a4364-7890-41b4-9c3e-48f5a6550016")
 	)
 	(label "SDI"
-		(at 149.86 82.55 0)
+		(at 149.86 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1528,7 +1528,7 @@
 		(uuid "8079b206-bbe5-42c1-8d50-fdc4b5339403")
 	)
 	(label "LED_K"
-		(at 149.86 80.01 0)
+		(at 149.86 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1568,7 +1568,7 @@
 		(uuid "93550327-1148-45b0-9dbb-2a7326f199d6")
 	)
 	(label "SCK"
-		(at 149.86 85.09 0)
+		(at 149.86 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1578,7 +1578,7 @@
 		(uuid "990a9fee-5907-4a94-9e11-f58ad833fc80")
 	)
 	(label "LED_A"
-		(at 149.86 77.47 0)
+		(at 149.86 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1598,7 +1598,7 @@
 		(uuid "a04a0acc-d1ca-4a0e-bbb8-dd4c5f6cc841")
 	)
 	(label "D{slash}C"
-		(at 149.86 90.17 0)
+		(at 149.86 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1638,7 +1638,7 @@
 		(uuid "c227a81e-00a6-4356-af6c-23aead5ba9ac")
 	)
 	(label "CS"
-		(at 149.86 87.63 0)
+		(at 149.86 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1648,7 +1648,7 @@
 		(uuid "cf6303a4-5e6c-4704-bb4e-9188fd5ccf63")
 	)
 	(label "3V3"
-		(at 177.8 80.01 180)
+		(at 177.8 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1658,7 +1658,7 @@
 		(uuid "d3b6d1be-405e-45d8-baef-f2b05ff99414")
 	)
 	(label "_GND"
-		(at 177.8 90.17 180)
+		(at 177.8 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
