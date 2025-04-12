@@ -1,0 +1,10 @@
+Plugin v0.0.1 running on KiCad 9.0.1-9.0.1-0~ubuntu22.04.1 and Python 3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0] on linux.
+Config file /home/krishnawa/git/BEEWATCH/Kicad/BEEWATCH MK2/BEEWATCH MK2.kicad_pcb.hierpcb.json not found. Creating new one.
+Footprint meme_2 is not on a sheet, skipping...
+
+├─ /Display board/
+├─ /Display/
+├─ /RYS8830/
+├─ /ACCELEROMETER/
+├─ /ESP32/
+├─ /Battery&BMS/

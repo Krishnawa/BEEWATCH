@@ -5914,6 +5914,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 134.62) (xy 337.82 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56b14015-1734-43d3-b24c-fe810857b781")
+	)
+	(wire
+		(pts
 			(xy 212.09 110.49) (xy 250.19 110.49)
 		)
 		(stroke
@@ -8508,6 +8518,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 337.82 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4324e026-2727-4646-85d2-82c679519661")
+		(property "Reference" "#PWR066"
+			(at 337.82 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 343.408 139.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 337.82 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "897490c2-d60f-4f92-9cc7-720f825e0e2b")
+		)
+		(instances
+			(project "BEEWATCH MK2"
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 73.66 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9365,6 +9441,74 @@
 			(project ""
 				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 337.82 134.62 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cbc295e-f0b2-4706-87c9-4a5352cdda2b")
+		(property "Reference" "TP2"
+			(at 339.344 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 339.344 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 332.74 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 332.74 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 337.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c6011c8-64d1-4d63-8513-6160c331fe27")
+		)
+		(instances
+			(project "BEEWATCH MK2"
+				(path "/e9c5fb53-480b-4989-8495-a3341ee99514/56d77f8e-c069-456f-a514-fdde13f048cd"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -11403,7 +11547,7 @@
 		(fields_autoplaced yes)
 		(uuid "c41b1aec-09bf-4377-b362-e1f6eb9974f0")
 		(property "Reference" "TP1"
-			(at 321.31 147.3199 90)
+			(at 321.31 148.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11418,6 +11562,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
