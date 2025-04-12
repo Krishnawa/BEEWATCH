@@ -307,6 +307,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -662,7 +663,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -719,15 +720,16 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "+3V3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(150, 255, 58)",
         "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(150, 255, 58)",
         "track_width": 0.3,
         "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
       },
       {
+        "line_style": 0,
         "name": "50OHM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
@@ -738,10 +740,11 @@
         "clearance": 0.2032,
         "diff_pair_gap": 0.2032,
         "diff_pair_width": 0.1582,
+        "line_style": 0,
         "name": "90OHM",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(3, 255, 214)",
         "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(3, 255, 214)",
         "track_width": 0.1582
       },
       {
@@ -753,9 +756,9 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 103, 253)",
         "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 103, 253)",
         "track_width": 0.4,
         "via_diameter": 0.6,
         "via_drill": 0.2,
@@ -777,6 +780,9 @@
         "ANT"
       ],
       "Net-(U1-LNA_IN)": [
+        "ANT"
+      ],
+      "unconnected-(AE1-PCB_Trace-Pad2)": [
         "ANT"
       ]
     },
