@@ -3859,7 +3859,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Battery_Cell"
+		(property "Value" "3.7V 400mAh"
 			(at 111.76 69.2784 0)
 			(effects
 				(font

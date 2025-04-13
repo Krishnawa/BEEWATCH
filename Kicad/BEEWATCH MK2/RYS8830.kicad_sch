@@ -5443,18 +5443,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "32e009f9-285a-49b2-8488-32b946416199")
 		(property "Reference" "L3"
-			(at 68.58 114.3 90)
+			(at 67.056 121.158 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "L"
-			(at 68.58 116.84 90)
+		(property "Value" "3.3uH"
+			(at 68.58 123.698 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5470,7 +5469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.sunrom.com/p/33uh-3r3-3mm-inductor"
 			(at 68.58 119.38 0)
 			(effects
 				(font
@@ -5481,6 +5480,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 68.58 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 68.58 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5514,7 +5522,7 @@
 		(dnp no)
 		(uuid "3377f83c-7a2a-48bc-b4c9-b05436a2812e")
 		(property "Reference" "R30"
-			(at 157.48 119.3799 0)
+			(at 165.354 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5523,7 +5531,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 157.48 121.9199 0)
+			(at 163.322 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4698,16 +4698,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "add SMA\n"
-		(exclude_from_sim no)
-		(at 366.014 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0493d225-6078-4b88-8d98-2d480e8e8259")
-	)
 	(text "BUZZER\n"
 		(exclude_from_sim no)
 		(at 215.9 193.04 0)
@@ -4778,16 +4768,6 @@
 		)
 		(uuid "8289ade2-9ee9-4826-b807-d2ac7d3fddfa")
 	)
-	(text "calculate value"
-		(exclude_from_sim no)
-		(at 343.916 166.624 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "83086285-ee19-4aa8-80cc-9ef33a6f1a40")
-	)
 	(text "add HMC544A / 544AE"
 		(exclude_from_sim no)
 		(at 339.852 144.526 0)
@@ -4798,13 +4778,14 @@
 		)
 		(uuid "b14c4ac0-188b-4be0-87ed-c38a4b45f3a6")
 	)
-	(text "calculate value"
+	(text "ABS07-32.768KHZ-9-T\nLoad Capacitance (Cl): 9 pF (specified in the part number)\nStary capacitance (Cs): 3pF\nExternal load capacitors (Cx): Cx = 2(Cl-Cs)\n							= 2(9-3)\n							= 12pF"
 		(exclude_from_sim no)
-		(at 137.668 160.274 0)
+		(at 102.362 174.498 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "c4fe0d5a-99b6-4783-a42c-ed37c87d2baf")
 	)
@@ -6819,6 +6800,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 234 16 1)
 		)
 		(uuid "c74fc3d0-40a6-4b7b-8411-2793de7aeaff")
 	)
@@ -7713,7 +7695,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 69db6db5-384e-4a6f-aaa7-cd08bd35de6d)
+			(uuid 7bb578f9-d378-4c02-b3e7-f105a337f1da)
 		)
 	)
 	(netclass_flag ""
@@ -7739,6 +7721,39 @@
 		)
 		(property "Component Class" "ANT"
 			(at 358.8385 143.7005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 306.07 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c143e2e1-1176-4e89-a2e9-12523485b418")
+		(property "Netclass" "ANT FEED LINE"
+			(at 306.7685 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" "ANT"
+			(at 306.7685 159.8295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8465,7 +8480,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Antenna_Chip"
+		(property "Value" "CA-C03"
 			(at 350.52 154.9399 0)
 			(effects
 				(font
@@ -9093,7 +9108,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "4.7nF"
 			(at 327.66 166.3635 0)
 			(effects
 				(font
@@ -9729,22 +9744,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6553a904-2ff6-4e10-b89e-e91603feccfc")
 		(property "Reference" "L1"
-			(at 265.43 64.77 90)
+			(at 265.43 67.056 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "L_Small"
-			(at 267.97 64.77 90)
+		(property "Value" "2nH"
+			(at 268.224 67.564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
@@ -9799,7 +9815,7 @@
 		(dnp no)
 		(uuid "69915de9-b322-4ad3-b3f4-760f84336fdc")
 		(property "Reference" "C8"
-			(at 275.5963 57.15 90)
+			(at 275.59 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9807,7 +9823,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 280.67 62.738 90)
+			(at 278.13 58.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10182,7 +10198,7 @@
 		(fields_autoplaced yes)
 		(uuid "79c6624d-3776-4245-b04e-fd40f36f16bd")
 		(property "Reference" "C4"
-			(at 128.905 148.5962 0)
+			(at 128.27 148.5962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10190,8 +10206,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 128.905 151.1362 0)
+		(property "Value" "12pF"
+			(at 128.27 151.1362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10465,7 +10481,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0R"
 			(at 325.1263 154.94 90)
 			(effects
 				(font
@@ -11074,7 +11090,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "5.6nH"
 			(at 335.28 156.21 90)
 			(effects
 				(font
@@ -11409,7 +11425,7 @@
 		(dnp no)
 		(uuid "c01158c1-368a-48b0-8842-8a0aab180c3f")
 		(property "Reference" "C7"
-			(at 277.622 47.752 90)
+			(at 275.59 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11418,7 +11434,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 276.606 53.594 90)
+			(at 278.13 43.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11681,7 +11697,7 @@
 		(fields_autoplaced yes)
 		(uuid "c877bb70-280b-4e5e-ba9c-c8eaea601e07")
 		(property "Reference" "C3"
-			(at 116.205 148.5962 0)
+			(at 115.57 148.5962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11689,8 +11705,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 116.205 151.1362 0)
+		(property "Value" "12pF"
+			(at 115.57 151.1362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12234,7 +12250,7 @@
 		(dnp no)
 		(uuid "fba15e01-5590-491a-b321-c239ed0e2913")
 		(property "Reference" "C9"
-			(at 275.5963 66.04 90)
+			(at 275.59 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12242,7 +12258,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 282.956 71.12 90)
+			(at 278.13 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
