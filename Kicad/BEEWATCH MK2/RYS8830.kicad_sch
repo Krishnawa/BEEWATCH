@@ -5807,7 +5807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-6-1EP_3x2mm_P0.5mm_EP1.65x1.35mm"
+		(property "Footprint" "SM_BUCK:SON50P300X200X80-7N-D"
 			(at 66.04 80.01 0)
 			(effects
 				(font
