@@ -28622,6 +28622,28 @@
 		(uuid "df490681-8ce5-4285-9738-834d0e34cef7")
 	)
 	(gr_circle
+		(center 102.25 90.5)
+		(end 102.6 90.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "2b2beb9c-85d2-4021-9309-717e4f506feb")
+	)
+	(gr_circle
+		(center 112.25 90.5)
+		(end 112.75 90.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "2cfd4905-47a7-4919-aac9-4de51b8f8c86")
+	)
+	(gr_circle
 		(center 162.5 119)
 		(end 163.3 119)
 		(stroke
