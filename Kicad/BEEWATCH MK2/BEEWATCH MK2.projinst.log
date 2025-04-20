@@ -1,0 +1,24 @@
+Plugin v0.0.1 running on KiCad 9.0.1-9.0.1-0~ubuntu22.04.1 and Python 3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0] on linux.
+Valid Board found for /home/krishnawa/git/BEEWATCH/Kicad/BEEWATCH MK2/BEEWATCH MK2.kicad_sch
+6 sheet instances entries in /home/krishnawa/git/BEEWATCH/Kicad/BEEWATCH MK2/BEEWATCH MK2.kicad_sch
+/home/krishnawa/git/BEEWATCH/Kicad/BEEWATCH MK2/Display_board.kicad_pcb doesn't exist
+0 sheet instances entries in /home/krishnawa/git/BEEWATCH/Kicad/BEEWATCH MK2/Display_board.kicad_sch
+/home/krishnawa/git/BEEWATCH/Kicad/BEEWATCH MK2/Display.kicad_pcb doesn't exist
+0 sheet instances entries in /home/krishnawa/git/BEEWATCH/Kicad/BEEWATCH MK2/Display.kicad_sch
+/home/krishnawa/git/BEEWATCH/Kicad/BEEWATCH MK2/RYS8830.kicad_pcb doesn't exist
+0 sheet instances entries in /home/krishnawa/git/BEEWATCH/Kicad/BEEWATCH MK2/RYS8830.kicad_sch
+/home/krishnawa/git/BEEWATCH/Kicad/BEEWATCH MK2/GPS.kicad_pcb doesn't exist
+0 sheet instances entries in /home/krishnawa/git/BEEWATCH/Kicad/BEEWATCH MK2/GPS.kicad_sch
+/home/krishnawa/git/BEEWATCH/Kicad/BEEWATCH MK2/ESP32.kicad_pcb doesn't exist
+0 sheet instances entries in /home/krishnawa/git/BEEWATCH/Kicad/BEEWATCH MK2/ESP32.kicad_sch
+/home/krishnawa/git/BEEWATCH/Kicad/BEEWATCH MK2/Battery&BMS.kicad_pcb doesn't exist
+0 sheet instances entries in /home/krishnawa/git/BEEWATCH/Kicad/BEEWATCH MK2/Battery&BMS.kicad_sch
+Root item: <wx._dataview.TreeListItem object at 0x7f36de36bd90>
+No Valid Child board for 0a6bc0e7-5fb3-4097-b017-4f451941d5a3
+No Valid Child board for 15b9618d-10d4-4333-8312-f49228536273
+No Valid Child board for 33dec73c-f7ec-4dd7-9d85-ef473e07baa9
+No Valid Child board for 45e7f89e-d204-4195-8987-9a9b7a51f032
+No Valid Child board for 56d77f8e-c069-456f-a514-fdde13f048cd
+No Valid Child board for d9595010-f994-473f-a0a5-39e7f06951fe
+No Valid Child board for 
+Instance is a dead branch: 
