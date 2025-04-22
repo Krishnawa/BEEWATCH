@@ -4598,7 +4598,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD0710KL "
 			(at 208.28 53.34 0)
 			(effects
 				(font
@@ -4716,7 +4716,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "BSS138"
 			(at 219.71 57.15 0)
 			(effects
 				(font
@@ -4837,7 +4837,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "DMP1045U-7"
 			(at 91.44 153.67 0)
 			(effects
 				(font
@@ -4958,7 +4958,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "KGM15BR50J475MT "
 			(at 40.64 96.52 0)
 			(effects
 				(font
@@ -5031,7 +5031,7 @@
 				)
 			)
 		)
-		(property "Value" "K10K"
+		(property "Value" "10K"
 			(at 231.14 90.17 90)
 			(effects
 				(font
@@ -5074,7 +5074,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD0710KL "
 			(at 228.6 90.17 0)
 			(effects
 				(font
@@ -5323,7 +5323,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RYS8830"
 			(at 133.35 44.45 0)
 			(effects
 				(font
@@ -5697,7 +5697,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "KGM15BR50J475MT "
 			(at 106.68 102.87 0)
 			(effects
 				(font
@@ -6370,7 +6370,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "LTC3549EDCB#TRMPBF"
 			(at 66.04 80.01 0)
 			(effects
 				(font
@@ -6501,7 +6501,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD0710KL "
 			(at 208.28 90.17 0)
 			(effects
 				(font
@@ -6797,7 +6797,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD0710KL "
 			(at 78.74 161.29 0)
 			(effects
 				(font
@@ -6918,7 +6918,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "DMG6968U"
 			(at 88.9 176.53 0)
 			(effects
 				(font
@@ -7222,7 +7222,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ZLLS410TA"
 			(at 219.71 119.38 0)
 			(effects
 				(font
@@ -7405,7 +7405,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "KGM15BR50J475MT "
 			(at 30.48 85.09 0)
 			(effects
 				(font
@@ -7637,7 +7637,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD0710KL "
 			(at 78.74 181.61 0)
 			(effects
 				(font
@@ -7756,7 +7756,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "BSS138"
 			(at 220.98 138.43 0)
 			(effects
 				(font
@@ -7875,7 +7875,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "KGM15BR50J475MT "
 			(at 72.39 64.77 0)
 			(effects
 				(font
@@ -8057,7 +8057,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD0710KL "
 			(at 237.49 113.03 0)
 			(effects
 				(font
@@ -8175,7 +8175,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "02013D221KAT2A "
 			(at 99.06 88.9 0)
 			(effects
 				(font
@@ -8290,7 +8290,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD0710KL "
 			(at 228.6 53.34 0)
 			(effects
 				(font
@@ -8983,7 +8983,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD0710KL "
 			(at 209.55 142.24 0)
 			(effects
 				(font
@@ -9101,7 +9101,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD0751KL "
 			(at 88.9 88.9 0)
 			(effects
 				(font
@@ -9217,7 +9217,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD071ML "
 			(at 26.67 80.01 0)
 			(effects
 				(font
@@ -9402,7 +9402,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD07100KL"
 			(at 88.9 76.2 0)
 			(effects
 				(font
@@ -9719,7 +9719,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "BSS138"
 			(at 219.71 86.36 0)
 			(effects
 				(font
@@ -9928,8 +9928,8 @@
 				)
 			)
 		)
-		(property "Value" "K10K"
-			(at 232.41 142.24 90)
+		(property "Value" "10K"
+			(at 232.918 144.272 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9971,7 +9971,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD0710KL "
 			(at 229.87 142.24 0)
 			(effects
 				(font

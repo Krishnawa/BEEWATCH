@@ -1738,7 +1738,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD071KL "
 			(at 100.33 82.55 0)
 			(effects
 				(font
@@ -1853,7 +1853,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "WS2812B-0807"
 			(at 77.47 88.9 0)
 			(effects
 				(font
@@ -2123,7 +2123,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GC9A01"
 			(at 215.9 67.31 0)
 			(effects
 				(font

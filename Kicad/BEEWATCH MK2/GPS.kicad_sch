@@ -1967,7 +1967,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "06031C222JAT4A "
 			(at 175.26 120.65 0)
 			(effects
 				(font
@@ -2082,7 +2082,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD074K7L"
 			(at 168.91 93.98 0)
 			(effects
 				(font
@@ -2381,7 +2381,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD074K7L"
 			(at 176.53 93.98 0)
 			(effects
 				(font
@@ -2496,7 +2496,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD074K7L"
 			(at 92.71 92.71 0)
 			(effects
 				(font
@@ -2860,7 +2860,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MPU-6050"
 			(at 138.43 107.95 0)
 			(effects
 				(font
@@ -3045,7 +3045,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD074K7L"
 			(at 99.06 92.71 0)
 			(effects
 				(font

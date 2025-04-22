@@ -7695,7 +7695,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 94381d4f-f159-4af8-9a5c-57576e25cbbb)
+			(uuid 6d5dfec9-a49f-4b50-9b0e-ee7c74bef951)
 		)
 	)
 	(netclass_flag ""
@@ -7951,7 +7951,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "DMG6968U"
 			(at 213.36 241.3 0)
 			(effects
 				(font
@@ -8069,7 +8069,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "TK-074-4"
 			(at 105.41 242.57 0)
 			(effects
 				(font
@@ -8511,7 +8511,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD0710KL "
 			(at 105.41 223.52 0)
 			(effects
 				(font
@@ -9129,7 +9129,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD075K1L "
 			(at 100.33 53.34 0)
 			(effects
 				(font
@@ -9370,7 +9370,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "TK-074-4"
 			(at 71.12 241.3 0)
 			(effects
 				(font
@@ -9558,7 +9558,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ABS07-32.768KHZ-T"
 			(at 119.38 139.7 0)
 			(effects
 				(font
@@ -9795,7 +9795,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD0722RL "
 			(at 231.14 143.51 0)
 			(effects
 				(font
@@ -9913,7 +9913,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ESP32-S3FH4R2"
 			(at 273.05 128.27 0)
 			(effects
 				(font
@@ -10309,7 +10309,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD0722RL "
 			(at 231.14 140.97 0)
 			(effects
 				(font
@@ -10541,7 +10541,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD075K1L "
 			(at 100.33 55.88 0)
 			(effects
 				(font
@@ -11122,7 +11122,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD07100RL "
 			(at 201.93 241.3 0)
 			(effects
 				(font
@@ -11792,7 +11792,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD0710KL "
 			(at 71.12 223.52 0)
 			(effects
 				(font
@@ -13570,7 +13570,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD0747KL "
 			(at 207.01 247.65 0)
 			(effects
 				(font
@@ -13753,7 +13753,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ZLLS410TA"
 			(at 210.82 227.33 0)
 			(effects
 				(font
@@ -13869,7 +13869,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD071KL "
 			(at 313.69 143.51 0)
 			(effects
 				(font
