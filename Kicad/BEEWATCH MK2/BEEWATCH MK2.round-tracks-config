@@ -1,7 +1,7 @@
 Default	False	2.0	3
 +3V3	False	2.0	3
-50OHM	True	2.0	3
-50OHM_ANT	True	2.0	3
-90OHM	False	2.0	3
+50OHM	False	2.0	3
+50OHM_ANT	False	2.0	3
+90OHM	True	2.0	3
 PWR	False	2.0	3
 False	True	False
