@@ -64,7 +64,36 @@
           "width": 0.1582
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "starved_thermal|420382075|325445934|5e627a99-7a58-43de-b538-54f834d81689|a1becdcc-2980-4ff7-833e-3a1f792007b0|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|420537075|322103434|272197e0-8d77-42d3-b4cd-d9c2a8035c54|c38a5cbf-3354-4ea0-afbc-053c269e4976|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|421195786|306345997|5e627a99-7a58-43de-b538-54f834d81689|26c75a5a-9a00-4002-b258-d6745a5bbf66|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|423472075|318633435|5e627a99-7a58-43de-b538-54f834d81689|09267953-9ff8-431a-b2c0-aa163ea8347c|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|423832075|314583434|5e627a99-7a58-43de-b538-54f834d81689|24a21cee-f970-45f2-abc6-2af4e2a76c52|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|441226009|325967317|5e627a99-7a58-43de-b538-54f834d81689|ed2f35a0-9079-4fe9-8d7b-adca4f243c1b|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|442994575|303933434|272197e0-8d77-42d3-b4cd-d9c2a8035c54|1126404c-91eb-4f9e-8ae7-dfc7f6a4da2a|B.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -150,7 +179,7 @@
         "min_via_diameter": 0.4,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
