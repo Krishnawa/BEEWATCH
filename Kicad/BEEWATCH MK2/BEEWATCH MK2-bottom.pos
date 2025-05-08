@@ -1,0 +1,32 @@
+### Footprint positions - created on 2025-05-08T23:52:08+0530 ###
+### Printed by KiCad version 9.0.1-9.0.1-0~ubuntu22.04.1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                          Package                                           PosX       PosY       Rot  Side
+                                                                                       7.8654     6.2619  180.0000  bottom
+                                                                                      11.7654    37.0619  180.0000  bottom
+                                                                                      28.8654    36.9619  180.0000  bottom
+BT1       3.7V_400mAh                  WLY902025                                      53.9904    20.0440  -90.0000  bottom
+BZ1       Buzzer                       CL9032A-CLDZ-SMD_Passive_Buzzer                62.8904    35.0440    0.0000  bottom
+C18       0.1u                         C_0603_1608Metric                              56.2904     3.5240   90.0000  bottom
+D4        ZLLS410TA                    D_SOD-323F                                     69.3904    36.6440  -90.0000  bottom
+J1        USB_C_Receptacle_USB2.0_16P  USB_C_Receptacle_XKB_U262-16XN-4BVC11          45.7904    20.2440   90.0000  bottom
+J3        Conn_02x06_Odd_Even          PinHeader_2x06_P1.27mm_Vertical_SMD            62.8904     3.9440  -90.0000  bottom
+J4        Conn_02x06_Odd_Even          PinHeader_2x06_P1.27mm_Vertical_SMD            20.3554     3.8940  -90.0000  bottom
+Q1        DMG6968U                     SOT-23                                         72.2904    33.1440    0.0000  bottom
+Q2        DMG6968U                     SOT-23                                         69.6904     3.8440  -90.0000  bottom
+R1        5K1                          R_0402_1005Metric_Pad0.72x0.64mm_HandSolder    52.5904    18.8440    0.0000  bottom
+R2        5K1                          R_0402_1005Metric_Pad0.72x0.64mm_HandSolder    52.5904    21.7440    0.0000  bottom
+R3        10K                          R_0402_1005Metric_Pad0.72x0.64mm_HandSolder    54.7904    34.5440  -45.0000  bottom
+R5        10K                          R_0402_1005Metric_Pad0.72x0.64mm_HandSolder    47.6298    11.4834   45.0000  bottom
+R9        100                          R_0402_1005Metric_Pad0.72x0.64mm_HandSolder    70.6404    30.8940    0.0000  bottom
+R10       47K                          R_0402_1005Metric_Pad0.72x0.64mm_HandSolder    69.5404    32.9440  -90.0000  bottom
+R17       10K                          R_0402_1005Metric_Pad0.72x0.64mm_HandSolder    57.6904     6.2440  -90.0000  bottom
+R18       1M                           R_0402_1005Metric_Pad0.72x0.64mm_HandSolder    69.7404     6.4815    0.0000  bottom
+R19       22                           R_0402_1005Metric_Pad0.72x0.64mm_HandSolder    57.5904     3.5465  -90.0000  bottom
+R29       0                            R_0402_1005Metric_Pad0.72x0.64mm_HandSolder    59.0904    30.3440    0.0000  bottom
+R30       0                            R_0402_1005Metric_Pad0.72x0.64mm_HandSolder    66.2465    30.3940  180.0000  bottom
+R53       0                            R_0402_1005Metric_Pad0.72x0.64mm_HandSolder    58.3904    32.0440   90.0000  bottom
+SW1       TK-074-4                     Tact_Switch-TK-074-4_Pin_SMD                   50.8904    32.2440  -45.0000  bottom
+SW2       TK-074-4                     Tact_Switch-TK-074-4_Pin_SMD                   50.8904     8.2440   45.0000  bottom
+## End

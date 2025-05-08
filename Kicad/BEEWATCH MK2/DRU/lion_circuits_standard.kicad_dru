@@ -1,0 +1,27 @@
+(version 1)
+(design_rules
+  (setup
+    (track_width 0.152)
+    (via_dia 0.6)
+    (via_drill 0.35)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+    (clearance 0.152)
+    (min_clearance 0.152)
+    (min_copper_edge_clearance 0.3)
+    (solder_mask_min_width 0.152)
+    (silk_screen_clearance 0.152)
+    (pad_to_mask_clearance 0)
+    (pad_to_paste_clearance -0.01)
+    (aux_axis_origin 0 0)
+  )
+  (net_class "Default" "Standard rules"
+    (clearance 0.152)
+    (track_width 0.152)
+    (via_dia 0.6)
+    (via_drill 0.35)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+  )
+)
+
